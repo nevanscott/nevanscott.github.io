@@ -1,0 +1,10 @@
+name: Nevan Scott
+description: 
+author:
+  name: Nevan Scott
+  email: nevan@nevanscott.com
+permalink: /:categories/:title/
+include: ['.htaccess']
+exclude: ['CNAME']
+markdown: kramdown
+highlighter: null

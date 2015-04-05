@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>{{ site.name }}{% if page.title %} &middot; {{ page.title | textilize | strip_html }}{% endif %}</title>
+	<meta name="viewport" content="width=995" />
+	<link href="/index.xml" rel="alternate" title="Nevan Scott" type="application/atom+xml" />
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+	<section>	
+		{{ content }}
+	</section>	
+</body>
+</html>
