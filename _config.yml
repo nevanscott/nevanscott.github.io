@@ -7,4 +7,4 @@ permalink: /:categories/:title/
 include: ['.htaccess']
 exclude: ['CNAME']
 markdown: kramdown
-highlighter: null
+highlighter: pygments
