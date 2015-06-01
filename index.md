@@ -68,8 +68,31 @@ TK
 Midnight Breakfast
 ------------------
 
+{% capture magaziny %}
+Producing a magazine is another one of those lifelong goals that I'm tickled and honored to be partaking in. I became at least mildly obsessed with the idea of the web as a publication medium in the mid-90s. For a time in college, I worked on an alternative (print) zine with some friends, writing and doing layout for the internals. I later worked on the college newspaper's design, as well as its website. Meanwhile, I worked with [Elfie Raymond](http://elfieraymond.com) on the publication of long-form poetry in [The Language Exchange](http://v1.elfieraymond.com/ccorner/index.html). My biggest prior undertaking was a web magazine I launched in 2005 called Sadie Lou—which Rebecca and Taylor also worked on.
+{% endcapture %}
+
 {% capture wonerfulartists %}
 I really don't want to pick favorites, so I encourage you if you're interested to look through the [Midnight Breakfast archive](http://midnightbreakfast.com/archive). It's a true treasure trove. I've worked most closely with the illustrators, and spear-headed our decision to feature original illustrations with every piece we publish. I can't even get started on how incredibly lucky I've felt getting to work with so many amazing people, who take the time to read and respond to the great writing I send them, creating just beautiful visual additions to the site. I'm proud to say that we pay all of these contributors, and I'd be remiss if I didn't plug [our ongoing campaign](https://www.patreon.com/mbfast) to remain funded by readers.
 {% endcapture %}
 
-I've been working closely with [Rebecca Rubenstein](http://rebeccarubenstein.com) and [Taylor Pavlik](https://twitter.com/FTPavlik) for the past year to get a literary magazine off the ground, with the help of [Lauren O'Neal](https://twitter.com/laureneoneal), [Ashley Perez](https://twitter.com/artscollide), and a {% include annotation.html label="ton of wonderful" id="wonerfulartists" note=wonerfulartists %} [writers and artists](http://midnightbreakfast.com/contributors).
+I've been working closely with [Rebecca Rubenstein](http://rebeccarubenstein.com) and [Taylor Pavlik](https://twitter.com/FTPavlik) for the past year to get a literary {% include annotation.html label="magazine" id="magaziny" note=magaziny %} off the ground, with the help of [Lauren O'Neal](https://twitter.com/laureneoneal), [Ashley Perez](https://twitter.com/artscollide), and a {% include annotation.html label="ton of wonderful" id="wonerfulartists" note=wonerfulartists %} [writers and artists](http://midnightbreakfast.com/contributors).
+
+
+
+Design & Development
+--------------------
+
+{% capture rmg %}
+This was a real Baptism-by-fire experience for me, where I was launched straight into a major redesign of a commercial website for an international pomegranate juice {% include annotation.html label="brand." id="pom" note="A brand, I have to admit, that I had never heard of before working on the website." %} I worked on the front-end, the back-end, moved the whole setup onto git to manage deploys, consulted on the user experience, and everything in between. It was a big project with a lot of late nights. I learned a ton.
+{% endcapture %}
+
+{% capture freelancer %}
+Some highlights include customizing Jekyll for [A Working Library](http://aworkinglibrary.com), designing and building a mobile-optimized site for  [Buzzfeed](http://www.buzzfeed.com), and redesigning the [David Korins Design](http://davidkorinsdesign.com) website. Honestly, I'm kind of terrible at freelancing.
+{% endcapture %}
+
+{% capture atcantilever %}
+I worked on websites and apps for [NYU-Poly](http://nyc.poly.edu), [Sugar in the Raw](http://www.intheraw.com), [Hoefler & Co.](http://www.typography.com), [Northeastern](http://nulawlab.org), [Droga5](http://droga5.com), [Designer Pages](https://www.designerpages.com), [Animal New York](http://animalnewyork.com), [Handi-lift](http://www.handi-lift.com), [IEH](http://www.iehcorp.com), [Rustic Pathways](http://rusticpathways.com), and [Jaime Morrison](https://twitter.com/longchalk).
+{% endcapture %}
+
+I like to make websites, and have spent most of my career doing so. I learned to make websites as a hobby, and in college I found myself a position making websites for professors. I started out working for {% include annotation.html label="an agency" id="rmg" note=rmg %} in LA, then moved to New York, where I have worked on projects as a {% include annotation.html label="freelancer" id="freelancer" note=freelancer %} and for the past several years as a partner {% include annotation.html label="at Cantilever." id="atcantilever" note=atcantilever %}
