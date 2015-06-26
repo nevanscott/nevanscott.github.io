@@ -2,8 +2,8 @@
 ---
 
 $h: 200;
-$s: 40%;
-$l: 30%;
+$s: 80%;
+$l: 25%;
 $d: 300s;
 $x: 20;
 
@@ -55,6 +55,7 @@ body {
     hsl(360*(4.5/6), $s, $l) 100%*(5/6),
     hsl(360*(4.5/6), $s, $l) 100%
   );
+  background-attachment: fixed;
   font-size: 16px;
   line-height: 1.6;
   padding: .7em;
