@@ -25,8 +25,36 @@ body {
   font-family: $ff-serif;
   color: rgba(255,255,255,.85);
   background: hsl($h, $s, $l);
-  -webkit-animation: colorwheel $d infinite ease-in-out;
-  animation: colorwheel $d infinite ease-in-out;
+  background: -webkit-linear-gradient(
+    top,
+    hsl(0, $s, $l),
+    hsl(0, $s, $l) 100%*(1/6),
+    hsl(360*(.5/6), $s, $l) 100%*(1/6),
+    hsl(360*(.5/6), $s, $l) 100%*(2/6),
+    hsl(360*(1/6), $s, $l) 100%*(2/6),
+    hsl(360*(1/6), $s, $l) 100%*(3/6),
+    hsl(360*(2/6), $s, $l) 100%*(3/6),
+    hsl(360*(2/6), $s, $l) 100%*(4/6),
+    hsl(360*(3.5/6), $s, $l) 100%*(4/6),
+    hsl(360*(3.5/6), $s, $l) 100%*(5/6),
+    hsl(360*(4.5/6), $s, $l) 100%*(5/6),
+    hsl(360*(4.5/6), $s, $l) 100%
+  );
+  background: linear-gradient(
+    top,
+    hsl(0, $s, $l),
+    hsl(0, $s, $l) 100%*(1/6),
+    hsl(360*(.5/6), $s, $l) 100%*(1/6),
+    hsl(360*(.5/6), $s, $l) 100%*(2/6),
+    hsl(360*(1/6), $s, $l) 100%*(2/6),
+    hsl(360*(1/6), $s, $l) 100%*(3/6),
+    hsl(360*(2/6), $s, $l) 100%*(3/6),
+    hsl(360*(2/6), $s, $l) 100%*(4/6),
+    hsl(360*(3.5/6), $s, $l) 100%*(4/6),
+    hsl(360*(3.5/6), $s, $l) 100%*(5/6),
+    hsl(360*(4.5/6), $s, $l) 100%*(5/6),
+    hsl(360*(4.5/6), $s, $l) 100%
+  );
   font-size: 16px;
   line-height: 1.6;
   padding: .7em;
