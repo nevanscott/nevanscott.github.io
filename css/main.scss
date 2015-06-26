@@ -21,9 +21,14 @@ $ff-sans:		'Whitney SSm A', 'Whitney SSm B', sans-serif;
   }
 }
 
+html {
+	min-height: 100%;
+}
+
 body {
   font-family: $ff-serif;
   color: rgba(255,255,255,.85);
+  min-height: 100%;
   background: hsl($h, $s, $l);
   background: -webkit-linear-gradient(
     top,
@@ -56,6 +61,7 @@ body {
     hsl(360*(4.5/6), $s, $l) 100%
   );
   background-attachment: fixed;
+  background-size: 100% 100%;
   font-size: 16px;
   line-height: 1.6;
   padding: .7em;
