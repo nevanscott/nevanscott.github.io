@@ -7,8 +7,8 @@ $l: 25%;
 $d: 300s;
 $x: 20;
 
-$ff-serif:	'Chronicle SSm A', 'Chronicle SSm B', serif;
-$ff-sans:	'Whitney SSm A', 'Whitney SSm B', sans-serif;
+$ff-serif: Chronicle, 'Chronicle SSm A', 'Chronicle SSm B', Georgia, serif;
+$ff-sans: Whitney, 'Whitney SSm A', 'Whitney SSm B', Avenir, Roboto, Noto, sans-serif;
 
 @-webkit-keyframes colorwheel {
 	@for $i from 0 through $x {
