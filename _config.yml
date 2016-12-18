@@ -8,3 +8,10 @@ include: ['.htaccess']
 exclude: ['CNAME']
 markdown: kramdown
 highlighter: pygments
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"

@@ -1,46 +1,29 @@
 ---
 ---
 
-$h: 200;
-$s: 80%;
-$l: 25%;
-$d: 300s;
-$x: 20;
-
 $ff-serif: Chronicle, 'Chronicle SSm A', 'Chronicle SSm B', Georgia, serif;
 $ff-sans: Whitney, 'Whitney SSm A', 'Whitney SSm B', Avenir, Roboto, Noto, sans-serif;
-
-@-webkit-keyframes colorwheel {
-	@for $i from 0 through $x {
-		#{$i*100%/$x} { background: hsl($h+$i*360/$x, $s, $l); }
-	}
-}
-@keyframes colorwheel {
-	@for $i from 0 through $x {
-		#{$i*100%/$x} { background: hsl($h+$i*360/$x, $s, $l); }
-	}
-}
 
 html {
 	min-height: 100%;
 }
 
 body {
-	background: hsl($h, $s, $l);
-	color: rgba(255,255,255,.85);
+	background: white;
+	color: rgba(0,0,0,.85);
 	font-family: $ff-serif;
 	font-size: 16px;
 	line-height: 1.6;
 	min-height: 100%;
 	padding: .7em;
-	@media screen and (min-width: 35em) {
+	@media all and (min-width: 35em) {
 		font-size: 18px;
 		line-height: 1.7;
 		padding: 1.4em;
 	}
 }
 
-section {
+header, section, footer {
 	margin: auto;
 	max-width: 40em;
 	position: relative;
@@ -64,49 +47,13 @@ p {
 	margin: 0 auto 1.25em;
 }
 a {
-	border-bottom: 2px solid rgba(255,255,255,.35);
+	border-bottom: 2px solid rgba(0,0,0,.15);
 	color: inherit;
 	text-decoration: none;
 	-webkit-transition: border 250ms;
 	transition: border 250ms;
 	white-space: nowrap;
 	&:hover {
-		border-color: rgba(255,255,255,.5);
-	}
-}
-
-a.annotation {
-	background: rgba(0,0,0,.2);
-	border: none;
-	border-radius: .25em;
-	padding: .15em .5em;
-	&:after {
-		content: '+';
-		font-size: .8em;
-		font-weight: bold;
-		margin-left: .5em;
-		width: 1em;
-	}
-	&.open:after {
-		content: '–';
-	}
-}
-span.annotation {
-	background: rgba(0,0,0,.2);
-	border-radius: .25em;
-	display: none;
-	font-family: $ff-sans;
-	font-size: .9em;
-	line-height: 1.6;
-	margin: .25em 0;
-	padding: .625em .75em;
-	span.annotation {
-		font-size: 1em;
-	}
-	&.open {
-		display: block;
-	}
-	@media screen and (min-width: 35em) {
-		padding: 1.25em 1.5em;
+		border-color: rgba(0,0,0,.3);
 	}
 }

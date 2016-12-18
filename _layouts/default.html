@@ -9,6 +9,15 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6747292/623588/css/fonts.css" />
 	<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <header>
+    <h1><a href="/">Nevan Scott</a></h1>
+  </header>
+	<section>
+	  <h2>{{ page.title }}</h2>
+		{{ content }}
+	</section>	
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script>
 		$(function(){
@@ -21,10 +30,5 @@
 			});
 		});
 	</script>
-</head>
-<body>
-	<section>	
-		{{ content }}
-	</section>	
 </body>
 </html>
