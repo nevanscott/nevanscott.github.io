@@ -15,7 +15,9 @@
     <h1><a href="/">Nevan Scott</a></h1>
   </header>
 	<section>
+	  {% if page.title %}
 	  <h2>{{ page.title }}</h2>
+	  {% endif %}
 		{{ content }}
 	</section>	
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
