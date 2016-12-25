@@ -10,10 +10,12 @@ html {
 
 body {
 	background: white;
+	background: hsl(60,10,95);
 	color: rgba(0,0,0,.85);
 	font-family: $ff-serif;
 	font-size: 16px;
 	line-height: 1.6;
+	margin: 0;
 	min-height: 100%;
 	padding: .7em;
 	@media all and (min-width: 35em) {
@@ -47,13 +49,20 @@ p {
 	margin: 0 auto 1.25em;
 }
 a {
+  background: white;
 	border-bottom: 2px solid rgba(0,0,0,.15);
 	color: inherit;
+	padding: 1px 3px;
 	text-decoration: none;
 	-webkit-transition: border 250ms;
 	transition: border 250ms;
 	white-space: nowrap;
 	&:hover {
 		border-color: rgba(0,0,0,.3);
+	}
+	header & {
+	  background: none;
+	  border: none;
+	  padding: 0;
 	}
 }
