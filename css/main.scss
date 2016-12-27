@@ -4,6 +4,7 @@
 $ff-serif: Chronicle, 'Chronicle SSm A', 'Chronicle SSm B', Georgia, serif;
 $ff-sans: Whitney, 'Whitney SSm A', 'Whitney SSm B', Avenir, Roboto, Noto, sans-serif;
 $ratio: 1.618;
+$ssm: "all and (min-width: 35em)";
 
 html {
 	min-height: 100%;
@@ -19,7 +20,7 @@ body {
 	margin: 0;
 	min-height: 100%;
 	padding: .7em;
-	@media all and (min-width: 35em) {
+	@media #{$ssm} {
 		font-size: 18px;
 		line-height: 1.7;
 		padding: 1.4em;
@@ -74,21 +75,30 @@ a {
 }
 
 header {
+  border-bottom: 1px solid rgba(0,0,0,.15);
   margin-bottom: 1.5em;
   overflow: auto;
   h1 {
-    float: left;
+    @media #{$ssm} {
+      float: left;    
+    }
   }
   nav {
-    float: right;
     font-size: .75em;
     font-weight: bold;
     letter-spacing: .1em;
-    margin-top: 1.75em;
     text-transform: uppercase;
+    @media #{$ssm} {
+      float: right;
+      margin-top: 1.75em;
+    }
     a {
       color: rgba(0,0,0,.4);
-      margin-left: 1.5em;
+      margin-right: .75em;
+      @media #{$ssm} {
+        margin-left: 1.5em;
+        margin-right: 0;    
+      }
     }
   }
 }
