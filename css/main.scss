@@ -67,7 +67,6 @@ a {
 	text-decoration: none;
 	-webkit-transition: border 250ms;
 	transition: border 250ms;
-	white-space: nowrap;
 	&:hover {
 		border-color: rgba(0,0,0,.3);
 	}
@@ -134,7 +133,6 @@ header {
       position: absolute;
       right: 0;
       top: 0;
-      white-space: normal;
       &:hover {
         box-shadow: 0 2px 3px rgba(0,0,0,.25);
         transition: box-shadow 250ms;
