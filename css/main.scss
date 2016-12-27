@@ -33,6 +33,11 @@ header, main, section, footer {
 	z-index: 2;
 }
 
+hr {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,.25);
+}
+
 h1, h2, h3 {
 	font-family: $ff-sans;
 }
