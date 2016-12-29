@@ -8,7 +8,7 @@
 	<link href="/index.xml" rel="alternate" title="Nevan Scott" type="application/atom+xml" />
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6747292/623588/css/fonts.css" />
-	<link rel="stylesheet" href="/css/main.css">
+	<style>{% capture styles %}{% include main.scss %}{% endcapture %}{{ styles | scssify }}</style>
 </head>
 <body>
   <header>
@@ -30,17 +30,5 @@
 	    <a href="/colophon/">Colophon</a>
 	  </nav>
 	</footer>
-	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script>
-		$(function(){
-			$('a.annotation').on('click', function(e){
-				var $this = $(this),
-					$target = $($this.attr('href'));
-				e.preventDefault();
-				$this.toggleClass('open');
-				$target.toggleClass('open');
-			});
-		});
-	</script>
 </body>
 </html>
