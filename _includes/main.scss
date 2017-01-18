@@ -125,6 +125,8 @@ iframe {
   $scale: 0.45;
   $height: 50vh;
   border: none;
+  border-top: 1.5em solid rgba(0,0,0,.25);
+  border-radius: .5em .5em 0 0;
   box-shadow: 0 1px 3px rgba(0,0,0,.25);
   height: $height / $scale;
   margin-bottom: 0 - ($height / $scale - $height);
