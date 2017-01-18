@@ -14,4 +14,40 @@ I developed several exercises and [projects](#fewd-projects) that I'm particular
 FEWD Projects
 -------------
 
-I made a simple ["About Me"](http://fewd49.nevan.org/projects/wendy_bite/) website, which utilizes only a very basic set of HTML elements (no ids or classes), and very lightly introduces the concept of floats. This is followed by a [single-column blog](http://fewd49.nevan.org/projects/fashion_blog_alpha/), which I use to introduce a greater range of HTML elements, along with nested CSS. That has a [2-column redesign](http://fewd49.nevan.org/projects/fashion_blog/) which students transition to, using floats for page layout and for the navigation. It's fascinating to me that it is doable now, but students who take the class actually learn to code layouts to be fluid right out of the gate. From here, they are ready to tackle the more complex layouts in [Startup Matchmaker](http://fewd49.nevan.org/projects/startup_matchmaker/), which I give them with extra pages which have not been "designed", as an exercise for them to imagine and create those pages based on the style established on the given pages.
+I made a simple [About Me](http://fewd49.nevan.org/projects/wendy_bite/) website, which utilizes only a very basic set of HTML elements (no ids or classes), and very lightly introduces the concept of floats. This is followed by a [single-column blog](http://fewd49.nevan.org/projects/fashion_blog_alpha/), which I use to introduce a greater range of HTML elements, along with nested CSS. That has a [2-column redesign](http://fewd49.nevan.org/projects/fashion_blog/) which students transition to, using floats for page layout and for the navigation. It's fascinating to me that it is doable now, but students who take the class actually learn to code layouts to be fluid right out of the gate. From here, they are ready to tackle the more complex layouts in [Startup Matchmaker](http://fewd49.nevan.org/projects/startup_matchmaker/), which I give them with extra pages which have not been "designed", as an exercise for them to imagine and create those pages based on the style established on the given pages.
+
+<figure>
+  <iframe src="http://fewd49.nevan.org/projects/wendy_bite/"></iframe>
+  <figcaption>
+    The <a href="http://fewd49.nevan.org/projects/wendy_bite/">About Me</a> project gives students the opportunity to build a 2-page website using only basic HTML elements and a minimal set of CSS.
+  </figcaption>
+</figure>
+
+<figure>
+  <iframe src="http://fewd49.nevan.org/projects/fashion_blog_alpha/"></iframe>
+  <figcaption>
+    <a href="http://fewd49.nevan.org/projects/fashion_blog_alpha/">Sartre’s List</a> pushes students further with more nested HTML and more sophisticated CSS.
+  </figcaption>
+</figure>
+
+<figure>
+  <iframe src="http://fewd49.nevan.org/projects/fashion_blog/"></iframe>
+  <figcaption>
+    The <a href="http://fewd49.nevan.org/projects/fashion_blog/">Redesign of Sartre’s List</a> requires students to produce a 2-column layout, and also offers subtle nudges to begin exploring CSS transitions.
+  </figcaption>
+</figure>
+
+<figure>
+  <iframe src="http://fewd49.nevan.org/projects/startup_matchmaker/"></iframe>
+  <figcaption>
+    <a href="http://fewd49.nevan.org/projects/startup_matchmaker/">Startup Matchmaker</a> gives students room to explore more sophisticated layouts, as well as opportunities to think about design systems.
+  </figcaption>
+</figure>
+
+
+*[HTML]: HyperText Markup Language
+*[CSS]: Cascading Style Sheets
+*[JS]: JavaScript
+*[UXDI]: User Experience Design Immersive
+*[FEWD]: Front-End Web Development
+*[UX]: User Experience
