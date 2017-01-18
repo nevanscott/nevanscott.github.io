@@ -126,16 +126,6 @@ iframe {
   $height: 50vh;
   border: none;
   box-shadow: 0 1px 3px rgba(0,0,0,.25);
-  height: $height / $scale;
-  margin-bottom: 0 - ($height / $scale - $height);
-  width: percentage(1/$scale);
-  -ms-zoom: $scale;
-  -moz-transform: scale($scale);
-  -moz-transform-origin: 0 0;
-  -o-transform: scale($scale);
-  -o-transform-origin: 0 0;
-  -webkit-transform: scale($scale);
-  -webkit-transform-origin: 0 0;
   @media #{$ssm} {
     $scale: 0.65;
     $height: 60vh;
