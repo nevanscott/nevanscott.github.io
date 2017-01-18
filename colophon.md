@@ -2,7 +2,9 @@
 title: Colophon
 ---
 
-Set in [Whitney][whitney] by Tobias Frere-Jones and [Chronicle Text][chronicle] by Tobias Frere-Jones and Jonathan Hoefler from [Hoefler & Co.][hco]
+Body copy is set in [Chronicle][chronicle], Charter, Georgia, or your system's default serif.
+
+Headers and other copy are set in [Whitney][whitney], your system's user interface font, or your system's default sans-serif.
 
 Built with [Jekyll](http://jekyllrb.com).
 
