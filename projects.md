@@ -20,6 +20,9 @@ I've had the pleasure of bringing to life and evolving several web projects, mos
 [Midnight Breakfast](http://midnightbreakfast.com)
 : Midnight Breakfast is one of my proudest accomplishments. In addition to designing the site, I've had an active role in art directing the site from day 1, which has afforded me the opportunity to work with incredible illustrators to bring more beauty into the world. It has been an incredible honor.
 
+[Learn CSS](http://learn.nevan.org)
+: A series of step-by-step tutorials I wrote for folks wanting to get their feet wet with CSS. [Styling the Basics](http://learn.nevan.org/basics/), [Turning the Tables](http://learn.nevan.org/tables/), and [Basic Layout](http://learn.nevan.org/layout/) were originally published in 2006. Recently, I've been updating these and have some half-hearted plans to expand on what's there.
+
 [Droga5](https://droga5.com)
 : I worked with Ty and Andrew at [Cantilever](http://cantilever.co/) to develop micro-interactions and build out this website for agency Droga5. The site is built with progressive layers to keep the site speedy while being responsive and strongly branded.
 
