@@ -67,10 +67,13 @@ a {
 	&:hover {
 		border-color: rgba(0,0,0,.3);
 	}
-	header & {
+	header &, footer & {
 	  background: none;
 	  border: none;
 	  padding: 0;
+	}
+	footer & {
+    color: rgba(0,0,0,.4);	
 	}
 	@media #{$ssm} {
 	  border-width: 2px;
