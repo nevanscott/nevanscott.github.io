@@ -8,20 +8,20 @@
 	<style>{% capture styles %}{% include main.scss %}{% endcapture %}{{ styles | scssify }}</style>
 </head>
 <body>
-  <header>
+  <header role="banner">
     <h1><a class="h-card" rel="me" href="{{ "/" | prepend: site.baseurl }}">Nevan Scott</a></h1>
     <nav>
       <a href="/projects/">Projects</a>
       <a href="/reading/">Reading</a>
     </nav>
   </header>
-	<main>
+	<main role="main">
 	  {% if page.title %}
 	  <h1>{{ page.title }}</h1>
 	  {% endif %}
 		{{ content }}
 	</main>
-	<footer>
+	<footer role="contentinfo">
 	  <nav>
 	    <a href="/colophon/">Colophon</a>
 	  </nav>
