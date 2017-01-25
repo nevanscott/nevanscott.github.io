@@ -16,19 +16,29 @@ body {
 	line-height: 1.4;
 	margin: 0;
 	min-height: 100%;
-	padding: .7em;
+	padding-bottom: .7em;
+	padding-top: .7em;
 	@media #{$ssm} {
 		font-size: 20px;
 		line-height: 1.5;
-		padding: 1.4em;
+		padding-bottom: 1.4em;
+		padding-top: 0;
 	}
 }
 
 header, main, section, footer {
 	margin: auto;
-	max-width: 37.5em;
+	padding-left: .7em;
+	padding-right: .7em;
 	position: relative;
 	z-index: 2;
+	@media #{$ssm} {
+		padding-left: 1.4em;
+		padding-right: 1.4em;
+	}
+}
+main, section {
+	max-width: 37.5em;
 }
 
 hr {
@@ -119,6 +129,15 @@ header {
       }
     }
   }
+}
+
+footer {
+  border-top: 1px solid rgba(0,0,0,.15);
+  margin-top: 1.5em;
+  padding-top: .7em;
+	@media #{$ssm} {
+	  padding-top: 1.4em;
+	}
 }
 
 iframe {
