@@ -1,0 +1,4 @@
+<article>
+  <time class="dt-published" datetime="{{ post.date }}">{{ post.date | date: "%B %d, %Y" }}</time>
+	{% if content %}{{ content }}{% else %}{{ post.content }}{% endif %}
+</article>

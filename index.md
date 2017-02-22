@@ -14,6 +14,13 @@ I've [always wanted to teach](/teaching/). Over the course of the past few years
 
 As part of my general tendency to overthink whatever I'm doing, I've been reading more blogs [about education](/education/) in recent years, which has been a real pleasure. Reading and practicing have allowed me to start forming some of my own thoughts about teaching.
 
+Writing
+-------
+
+Mostly embarrassing, enter at my own peril:
+
+{% for post in site.posts %}{% include post/short.html %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+
 
 Midnight Breakfast
 ------------------
