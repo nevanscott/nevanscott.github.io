@@ -44,6 +44,7 @@ books:
 Currently Reading
 -----------------
 
+* [<cite>Post-Digital Print</cite> by Alessandro Ludovico](http://postdigitalprint.org)
 * [<cite>Poems New and Collected</cite> by Wisława Szymborska](https://www.goodreads.com/book/show/10205.Poems_New_and_Collected)
 * [<cite>The End of the Alphabet</cite> by Claudia Rankine](https://www.goodreads.com/book/show/270904.The_End_of_the_Alphabet)
 * [<cite>Invention in Rhetoric and Composition</cite> by Janice M. Lauer](http://wac.colostate.edu/books/lauer_invention/)
