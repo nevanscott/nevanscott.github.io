@@ -154,6 +154,13 @@ footer {
 	@media #{$ssm} {
 	  padding-top: 1.4em;
 	}
+	nav {
+	  display: inline;
+	  &:before {
+	    content: ' · ';
+	    display: inline;
+	  }
+	}
 }
 
 iframe {
