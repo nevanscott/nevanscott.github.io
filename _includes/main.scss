@@ -188,3 +188,36 @@ iframe {
     -webkit-transform-origin: 0 0;
   }
 }
+
+.footnotes {
+  font-size: smaller;
+  &:before {
+    border-top: 1px solid rgba(0,0,0,.15);
+    content: '';
+    display: block;
+    width: 5em;
+  }
+}
+
+.footnote {
+  background: rgba(0,0,0,.2);
+  border: none;
+  border-radius: 2em;
+  display: inline-block;
+  font-size: smaller;
+  line-height: 1.5em;
+  height: 1.5em;
+  margin: 0 1px;
+  padding: 0;
+  text-align: center;
+  width: 1.5em;
+}
+
+.reversefootnote {
+  background: none;
+  border: none;
+  color: rgba(0,0,0,.4);
+  font-size: smaller;
+  margin: 0 1px;
+  padding: 0;
+}
