@@ -6,7 +6,7 @@ Body copy is set in [Chronicle][chronicle], Charter, Georgia, or your system's d
 
 Headers and other copy are set in [Whitney][whitney], your system's user interface font[^uifont], or your system's default sans-serif.[^webfonts]
 
-Built with [Jekyll](http://jekyllrb.com), served from [Github Pages](https://pages.github.com).
+Built with [Jekyll](http://jekyllrb.com), served from [Github Pages](https://pages.github.com). Still using [BBEdit](http://www.barebones.com/products/bbedit/).
 
 [whitney]: http://www.typography.com/fonts/whitney/overview/
 [chronicle]: http://www.typography.com/fonts/chronicle-text/overview/
