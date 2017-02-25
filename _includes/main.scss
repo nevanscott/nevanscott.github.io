@@ -98,6 +98,9 @@ time {
   color: rgba(0,0,0,.4);
   display: block;
   margin: 0 auto 1.25em;
+  body.night & {
+    color: rgba(255,255,255,.6);
+  }
 }
 dt {
   font-weight: bold;
