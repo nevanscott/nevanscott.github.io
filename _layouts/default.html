@@ -29,5 +29,12 @@
 	    <a href="/colophon/">Colophon</a>
 	  </nav>
 	</footer>
+	<script>
+	  var now = new Date();
+	  var hour = now.getHours();
+	  if(hour < 6 || hour > 20) {
+	    document.getElementsByTagName('body')[0].className = 'night';
+	  }
+	</script>
 </body>
 </html>
