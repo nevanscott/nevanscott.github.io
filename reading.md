@@ -48,7 +48,6 @@ Currently Reading
 * [<cite>Post-Digital Print</cite> by Alessandro Ludovico](http://postdigitalprint.org)
 * [<cite>Poems New and Collected</cite> by Wisława Szymborska](https://www.goodreads.com/book/show/10205.Poems_New_and_Collected)
 * [<cite>The End of the Alphabet</cite> by Claudia Rankine](https://www.goodreads.com/book/show/270904.The_End_of_the_Alphabet)
-* [<cite>Invention in Rhetoric and Composition</cite> by Janice M. Lauer](http://wac.colostate.edu/books/lauer_invention/)
 
 
 Books for Designers
@@ -58,14 +57,28 @@ Books for Designers
 * [<cite>Detail in Typography</cite> by Jost Hochuli](http://editions-b42.com/books/detail-typography/)
 
 
-Books about Teaching
---------------------
+Books for Teachers
+------------------
 
 * [<cite>Teaching Adults: A Practical Guide for New Teachers</cite> by Ralph G. Brockett](http://www.wiley.com/WileyCDA/WileyTitle/productCd-1118903412.html)
 * [<cite>Understanding by Design</cite> by Grant P. Wiggins and Jay McTighe](http://www.indiebound.org/book/9781416600350)
 
 
+Books for Readers
+-----------------
+
+* [<cite>Things That Are</cite> by Amy Leach](https://milkweed.org/book/things-that-are)
+
+
+Web Books[^webbooks]
+--------------------
+
+* [<cite>Resilient Web Design</cite> by Jeremy Keith](https://resilientwebdesign.com)
+* [<cite>The Shape of Design</cite> by Frank Chimero](http://shapeofdesignbook.com)
+* [<cite>Practical Typography</cite> by Matthew Butterick](http://practicaltypography.com)
+* [<cite>Professional Web Typography</cite> by Donny Truong](https://prowebtype.com)
 
 
 
+[^webbooks]: I'm hesitant to even separate these out, as I generally prefer to think about the term "book" very holistically. However, these are available as free resources, and all have slightly different models for how their authors intend to sustain them. There is nothing quotidien about publishing a book in this way, so for now I believe the distinction is worthy of note.
 
