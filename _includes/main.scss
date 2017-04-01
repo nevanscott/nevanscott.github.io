@@ -18,12 +18,10 @@ body {
 	margin: 0;
 	min-height: 100%;
 	padding-bottom: .7em;
-	padding-top: .7em;
 	@media #{$ssm} {
 		font-size: 20px;
 		line-height: 1.5;
 		padding-bottom: 1.4em;
-		padding-top: 0;
 	}
 	&.night {
     background: hsl(220,50,25);
@@ -77,6 +75,12 @@ p {
 	  font-family: $ff-sans;
 	  font-size: 1.25em;
 	  font-weight: bold;
+	  a {
+      border-width: 2px;
+      @media #{$ssm} {
+        border-width: 3px;
+      }
+	  }
 	}
 }
 figure {
@@ -128,22 +132,24 @@ dt {
 }
 a {
   background: white;
-	border-bottom: 1px solid rgba(0,0,0,.15);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-color: hsl(50,95,50);
 	color: inherit;
 	padding: 0 3px 1px;
 	text-decoration: none;
 	-webkit-transition: border 250ms;
 	transition: border 250ms;
 	&:hover {
-		border-color: rgba(0,0,0,.3);
+		border-color: hsl(40,95,45);
 	}
 	body.night & {
 	  background: none;
-	  border-color: rgba(255,255,255,.5);
+	  border-color: hsl(50,90,45);
 	  color: white;
 	  padding: 0 0 1px;
 	  &:hover {
-	    border-color: rgba(255,255,255,.75);
+	    border-color: hsl(35,95,50);
 	  }
 	}
 	header &, footer & {
@@ -164,12 +170,14 @@ a {
 	}
 }
 
-header {
-  border-bottom: 1px solid rgba(0,0,0,.15);
+header[role=banner] {
+  background: hsl(40,30,12);
+  color: white;
   margin-bottom: 1.5em;
   overflow: auto;
 	body.night & {
-	  border-color: rgba(255,255,255,.25);
+	  background: none;
+	  border-bottom: 1px solid rgba(255,255,255,.25);
 	}
   h1 {
     @media #{$ssm} {
@@ -186,7 +194,8 @@ header {
       margin-top: 1.75em;
     }
     a {
-      color: rgba(0,0,0,.4);
+      color: inherit;
+      font-family: $ff-sans;
       margin-right: .75em;
       @media #{$ssm} {
         margin-left: 1.5em;
@@ -197,6 +206,10 @@ header {
       }
     }
   }
+}
+
+main[role=main] {
+  margin-top: 2.8em;
 }
 
 footer {
