@@ -91,9 +91,8 @@ figure {
   margin: 0 0 1.25em;
   padding: 0;
   &.screenshot .browser {
-    border-top: 1.25em solid rgba(0,0,0,.25);
-    border-radius: .5em .5em 0 0;
-    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+    border: 1px solid rgba(0,0,0,.2);
+    box-shadow: .5em -.5em 0 rgba(0,0,0,.1);
     img {
       display: block;
     }
@@ -101,12 +100,13 @@ figure {
       border-color: rgba(255,255,255,.15);
       box-shadow: 0 1px 3px rgba(0,0,0,.5);
     }
+    @media #{$ssl} {
+      box-shadow: .5em .5em 0 rgba(0,0,0,.1);
+    }
   }
   figcaption {
-    font-style: italic;
-    em {
-      font-style: normal;
-    }
+    font-family: $ff-sans;
+    font-size: smaller;
   }
   @media #{$ssl} {
     margin-right: 33.33333%;
@@ -115,7 +115,7 @@ figure {
       position: absolute;
       right: -50%;
       top: 1.4em;
-      width: 48%;
+      width: 46%;
     }
   }
 }

@@ -23,7 +23,7 @@ I've had the pleasure of bringing to life and evolving several web projects, mos
 <figure class="screenshot">
   <div class="browser">
     <img src="/img/mb_m.png"
-      srcset="/img/mb.png 1024w, /img/mb_m.jpg 640w"
+      srcset="/img/mb.png 1024w, /img/mb_m.png 640w"
       alt="Midnight Breakfast Screenshot">
   </div>
   <figcaption>
@@ -38,7 +38,7 @@ I've had the pleasure of bringing to life and evolving several web projects, mos
 <figure class="screenshot">
   <div class="browser">
     <img src="/img/learncss_m.png"
-      srcset="/img/learncss.png 1024w, /img/learncss_m.jpg 640w"
+      srcset="/img/learncss.png 1024w, /img/learncss_m.png 640w"
       alt="Learn CSS Screenshot">
   </div>
   <figcaption>
@@ -56,7 +56,7 @@ I've had the pleasure of bringing to life and evolving several web projects, mos
 <figure class="screenshot">
   <div class="browser">
     <img src="/img/elfie_m.png"
-      srcset="/img/elfie.png 1024w, /img/elfie_m.jpg 640w"
+      srcset="/img/elfie.png 1024w, /img/elfie_m.png 640w"
       alt="Learn CSS Screenshot">
   </div>
   <figcaption>
