@@ -223,8 +223,10 @@ main[role=main] {
   margin-top: 2.8em;
 }
 
-footer {
+footer[role=contentinfo] {
   border-top: 1px solid rgba(0,0,0,.15);
+  font-family: $sans;
+  font-size: smaller;
   margin-top: 3em;
   padding-top: .7em;
 	@media #{$ssm} {
