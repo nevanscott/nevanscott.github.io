@@ -1,7 +1,9 @@
 ---
-title: Why I Teach
+title: Teaching
 ---
 
-I've had a teaching bug for as long as I can remember. I had really great teachers throughout elementary and secondary school. In 8th grade, I was part of a math club where I got to practice walking through approaches to problems with the 7th graders on the team. There were always kids who were quicker than I was, but I had an early knack for communicating ideas to others. In high school, one chemistry teacher even let me present[^1] a lesson one day. The first time I ever made any money, I taught kids' gymnastics over the summer.
+[User Experience Design Immersive](https://generalassemb.ly/education/user-experience-design-immersive) (UXDI)
+: I co-teach and develop curriculum for General Assembly's bootcamp-style UX course, one class at a time. In this setting, my own work is in designing projects, facilitating classes and workshop time, and mentoring students through their work. I'm tempted to say my real pride is in the work that students have accomplished while they've been in my classes, but I take much more pride when students achieve their goals in their careers and lives after the course, and when they help bring new things into the world.
 
-[^1]: I also helped grade some papers, which makes me feel kinda iffy in retrospect.
+[Front-End Web Development](https://generalassemb.ly/education/front-end-web-development) (FEWD)
+: I taught several rounds of General Assembly's part-time course in HTML and CSS, and also developed new materials and curriculum for the course. [Read more...](/ga/)
