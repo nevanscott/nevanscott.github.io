@@ -190,7 +190,7 @@ header[role=banner] {
 	  border-bottom: 1px solid rgba(255,255,255,.25);
 	}
   h1 {
-    @media #{$ssm} {
+    @media #{$ssl} {
       float: left;    
     }
   }
@@ -200,20 +200,26 @@ header[role=banner] {
     letter-spacing: .1em;
     margin-bottom: .5em;
     text-transform: uppercase;
-    @media #{$ssm} {
+    @media #{$ssl} {
       float: right;
       margin-top: 1.75em;
     }
     a {
-      color: inherit;
+      color: rgba(255,255,255,.6);
       font-family: $sans;
       margin-right: .75em;
-      @media #{$ssm} {
-        margin-left: 1.5em;
-        margin-right: 0;    
+      &.active {
+        color: white;
       }
-      body.night & {
-        color: rgba(255,255,255,.6);
+      &[rel=home] {
+        display: none;
+        @media #{$ssm} {
+          display: inline;
+        }
+      }
+      @media #{$ssl} {
+        margin-left: 1.5em;
+        margin-right: 0;
       }
     }
   }
