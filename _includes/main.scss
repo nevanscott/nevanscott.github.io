@@ -134,8 +134,13 @@ time {
   }
 }
 dt {
+  font-family: $sans;
   font-weight: bold;
   margin-top: 1.6em;
+}
+dd {
+  margin: .7em 0 1.4em;
+  padding: 0;
 }
 a {
   background: white;
