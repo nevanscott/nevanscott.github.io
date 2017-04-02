@@ -11,7 +11,7 @@ html {
 body {
 	background: white;
 	background: hsl(60,10,95);
-	border-top: .5em solid hsl(50,90,50);
+	border-top: .25em solid hsl(50,90,50);
 	color: rgba(0,0,0,.85);
 	font-family: $serif;
 	font-size: 18px;
@@ -20,8 +20,6 @@ body {
 	min-height: 100%;
 	padding-bottom: .7em;
 	@media #{$ssm} {
-		border-left: .75em solid hsl(50,90,50);
-		border-top: none;
 		font-size: 20px;
 		line-height: 1.5;
 		padding-bottom: 1.4em;
