@@ -27,18 +27,10 @@ I made a simple [About Me](http://fewd49.nevan.org/projects/wendy_bite/) website
     
   <h2>Introduces</h2>
     
-  * Basic HTML (`a`, `p`, `img`, `h1`, `hr`)
-  * HTML "skeleton" (`head`, `body`, `title`)
-  * Semantic HTML (`header`, `footer`, `nav`)
+  * Basic HTML tags
+  * HTML page "skeleton"
+  * Semantic HTML sections
   * Starter CSS properties
-    * `color`
-    * `font-family`
-    * `font-size`
-    * `font-style`
-    * `line-height`
-    * `margin`
-    * `padding`
-    * `text-align`
   * CSS Element selectors
   * CSS Descendant selectors
   * CSS `:hover` pseudo-class
@@ -53,6 +45,11 @@ I made a simple [About Me](http://fewd49.nevan.org/projects/wendy_bite/) website
   </div>
   <figcaption markdown="1">
   [Sartre’s List](http://fewd49.nevan.org/projects/fashion_blog_alpha/) pushes students further with more nested HTML and more sophisticated CSS.
+  
+  <h2>Introduces</h2>
+  
+  * Nav layout using `float`
+  * More practice with the basics
   </figcaption>
 </figure>
 
@@ -64,6 +61,11 @@ I made a simple [About Me](http://fewd49.nevan.org/projects/wendy_bite/) website
   </div>
   <figcaption markdown="1">
   The [Redesign of Sartre’s List](http://fewd49.nevan.org/projects/fashion_blog/) requires students to produce a 2-column layout, and also offers subtle nudges to begin exploring CSS transitions.
+  
+  <h2>Introduces</h2>
+  
+  * Page layout using `float`
+  * Nested CSS selectors
   </figcaption>
 </figure>
 
@@ -75,6 +77,11 @@ I made a simple [About Me](http://fewd49.nevan.org/projects/wendy_bite/) website
   </div>
   <figcaption markdown="1">
   [Startup Matchmaker](http://fewd49.nevan.org/projects/startup_matchmaker/) gives students room to explore more sophisticated layouts, as well as opportunities to think about design systems.
+  
+  <h2>Introduces</h2>
+  
+  * Background images
+  * CSS class selectors
   </figcaption>
 </figure>
 
