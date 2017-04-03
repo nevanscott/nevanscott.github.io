@@ -22,8 +22,8 @@ I made a simple [About Me](http://fewd49.nevan.org/projects/wendy_bite/) website
       srcset="/img/about.png 1024w, /img/about_m.png 640w"
       alt="About Page Screenshot">
   </div>
-  <figcaption>
-    The <a href="http://fewd49.nevan.org/projects/wendy_bite/">About Me</a> project gives students the opportunity to build a 2-page website using only basic HTML elements and a minimal set of CSS.
+  <figcaption markdown="1">
+  The [About Me](http://fewd49.nevan.org/projects/wendy_bite/) project gives students the opportunity to build a 2-page website using only basic HTML elements and a minimal set of CSS.
   </figcaption>
 </figure>
 
@@ -33,8 +33,8 @@ I made a simple [About Me](http://fewd49.nevan.org/projects/wendy_bite/) website
       srcset="/img/fashion1.png 1024w, /img/fashion1_m.png 640w"
       alt="Single-column Fashion Blog Screenshot">
   </div>
-  <figcaption>
-    <a href="http://fewd49.nevan.org/projects/fashion_blog_alpha/">Sartre’s List</a> pushes students further with more nested HTML and more sophisticated CSS.
+  <figcaption markdown="1">
+  [Sartre’s List](http://fewd49.nevan.org/projects/fashion_blog_alpha/) pushes students further with more nested HTML and more sophisticated CSS.
   </figcaption>
 </figure>
 
@@ -44,8 +44,8 @@ I made a simple [About Me](http://fewd49.nevan.org/projects/wendy_bite/) website
       srcset="/img/fashion2.png 1024w, /img/fashion2_m.png 640w"
       alt="Two-column Fashion Blog Screenshot">
   </div>
-  <figcaption>
-    The <a href="http://fewd49.nevan.org/projects/fashion_blog/">Redesign of Sartre’s List</a> requires students to produce a 2-column layout, and also offers subtle nudges to begin exploring CSS transitions.
+  <figcaption markdown="1">
+  The [Redesign of Sartre’s List](http://fewd49.nevan.org/projects/fashion_blog/) requires students to produce a 2-column layout, and also offers subtle nudges to begin exploring CSS transitions.
   </figcaption>
 </figure>
 
@@ -55,8 +55,8 @@ I made a simple [About Me](http://fewd49.nevan.org/projects/wendy_bite/) website
       srcset="/img/startup.png 1024w, /img/startup_m.png 640w"
       alt="Startup Matchmaker Screenshot">
   </div>
-  <figcaption>
-    <a href="http://fewd49.nevan.org/projects/startup_matchmaker/">Startup Matchmaker</a> gives students room to explore more sophisticated layouts, as well as opportunities to think about design systems.
+  <figcaption markdown="1">
+  [Startup Matchmaker](http://fewd49.nevan.org/projects/startup_matchmaker/) gives students room to explore more sophisticated layouts, as well as opportunities to think about design systems.
   </figcaption>
 </figure>
 
