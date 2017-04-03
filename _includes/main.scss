@@ -53,6 +53,9 @@ main >, section >, article > {
 hr {
   border: none;
   border-top: 1px solid rgba(0,0,0,.25);
+  body.night & {
+    border-color: rgba(255,255,255,.25);
+  }
 }
 
 h1, h2, h3 {
@@ -110,13 +113,18 @@ figure {
     font-size: smaller;
   }
   @media #{$ssl} {
-    margin-right: 33.33333%;
-    position: relative;
-    figcaption {
-      position: absolute;
-      right: -50%;
-      top: 1.4em;
-      width: 46%;
+    &.screenshot {
+      padding-bottom: 1.4em;
+      overflow: auto;
+      .browser {
+        float: left;
+        width: 66.66667%;
+      }
+      figcaption {
+        float: right;
+        margin-top: 1.4em;
+        width: 30.33333%;
+      }
     }
   }
 }
@@ -129,6 +137,14 @@ time {
   margin: 0 auto 1.25em;
   body.night & {
     color: rgba(255,255,255,.6);
+  }
+}
+code {
+  background: rgba(0,0,0,.1);
+  border-radius: .25em;
+  padding: 0 .2em;
+  body.night & {
+    background: rgba(255,255,255,.1);
   }
 }
 dt {

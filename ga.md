@@ -24,6 +24,24 @@ I made a simple [About Me](http://fewd49.nevan.org/projects/wendy_bite/) website
   </div>
   <figcaption markdown="1">
   The [About Me](http://fewd49.nevan.org/projects/wendy_bite/) project gives students the opportunity to build a 2-page website using only basic HTML elements and a minimal set of CSS.
+    
+  <h2>Introduces</h2>
+    
+  * Basic HTML (`a`, `p`, `img`, `h1`, `hr`)
+  * HTML "skeleton" (`head`, `body`, `title`)
+  * Semantic HTML (`header`, `footer`, `nav`)
+  * Starter CSS properties
+    * `color`
+    * `font-family`
+    * `font-size`
+    * `font-style`
+    * `line-height`
+    * `margin`
+    * `padding`
+    * `text-align`
+  * CSS Element selectors
+  * CSS Descendant selectors
+  * CSS `:hover` pseudo-class
   </figcaption>
 </figure>
 
