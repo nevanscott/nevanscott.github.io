@@ -32,11 +32,20 @@
 	  </nav>
 	</footer>
 	<script>
+	  
+	  // Night mode
 	  var now = new Date();
 	  var hour = now.getHours();
 	  if(hour < 6 || hour > 20) {
 	    document.getElementsByTagName('body')[0].className = 'night';
 	  }
+	  
+	  // Open external links in new tab
+    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+      var b = c[a];
+      b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+    }
+    
 	</script>
 </body>
 </html>
