@@ -155,6 +155,9 @@ code {
     background: rgba(255,255,255,.1);
   }
 }
+ul {
+  list-style: square;
+}
 dt {
   font-family: $sans;
   font-weight: bold;

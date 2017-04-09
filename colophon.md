@@ -11,12 +11,15 @@ Headers and other copy are set in [Whitney][whitney], your system's user interfa
 
 Although I am enamored of web fonts as much as the next designer, I've decided that recent additions to popular font stacks that come pre-installed on most <abbr title="Operating System">OS</abbr>es offer great options for legible pages at no cost to download speed.[^webfonts]
 
+If you're [getting into typography](/typography/), I've started to compile some thoughts. [Get&nbsp;started...](/typography/)
+
 
 
 Publishing
 ----------
 
 Built with [Jekyll](http://jekyllrb.com), served from [Github Pages](https://pages.github.com). Still using [BBEdit](http://www.barebones.com/products/bbedit/).
+
 
 
 Tools
