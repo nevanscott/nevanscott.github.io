@@ -19,3 +19,4 @@ defaults:
 
 kramdown:
   hard_wrap: true
+  footnote_backlink: "&#8617;&#xFE0E;"
