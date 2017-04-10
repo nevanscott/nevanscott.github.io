@@ -45,6 +45,7 @@ Currently Reading
 -----------------
 
 * [<cite>Thinking in Systems: A Primer</cite> by Donella H. Meadows](https://www.goodreads.com/book/show/3828902-thinking-in-systems)
+* [<cite>Beautiful Racket</cite> by Matthew Butterick](http://beautifulracket.com/)
 * [<cite>Post-Digital Print</cite> by Alessandro Ludovico](http://postdigitalprint.org)
 * [<cite>Poems New and Collected</cite> by Wisława Szymborska](https://www.goodreads.com/book/show/10205.Poems_New_and_Collected)
 * [<cite>The End of the Alphabet</cite> by Claudia Rankine](https://www.goodreads.com/book/show/270904.The_End_of_the_Alphabet)
