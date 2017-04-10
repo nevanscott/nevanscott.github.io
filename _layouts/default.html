@@ -2,44 +2,14 @@
 <html lang="en">
 {% include head.html %}
 <body>
-  <header role="banner">
-    <h1><a class="h-card" rel="me" href="{{ "/" | prepend: site.baseurl }}">Nevan Scott</a></h1>
-    <nav role="navigation">
-      <a href="/" rel="home"{% if page.url == "/" %} class="active"{% endif %}>About</a>
-      <a href="/portfolio/"{% if page.url == "/portfolio/" %} class="active"{% endif %}>Portfolio</a>
-      <a href="/teaching/"{% if page.url == "/teaching/" %} class="active"{% endif %}>Teaching</a>
-      <a href="/reading/"{% if page.url == "/reading/" %} class="active"{% endif %}>Reading</a>
-    </nav>
-  </header>
-	<main role="main">
-	  {% if page.title %}
-    <h1>{{ page.title | markdownify | strip_html }}</h1>
-	  {% endif %}
-		{{ content }}
-	</main>
-	<footer role="contentinfo">
-	  Nevan Scott
-	  &copy;
-	  2007–{{ site.time | date:"%Y" }}
-	  <nav>
-	    <a href="/colophon/">Colophon</a>
-	  </nav>
-	</footer>
-	<script>
-	  
-	  // Night mode
-	  var now = new Date();
-	  var hour = now.getHours();
-	  if(hour < 6 || hour > 20) {
-	    document.getElementsByTagName('body')[0].className = 'night';
-	  }
-	  
-	  // Open external links in new tab
-    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
-      var b = c[a];
-      b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
-    }
-    
-	</script>
+{% include header.html %}
+<main role="main">
+  {% if page.title %}
+  <h1>{{ page.title | markdownify | strip_html }}</h1>
+  {% endif %}
+  {{ content }}
+</main>
+{% include footer.html %}
+{% include scripts.html %}
 </body>
 </html>
