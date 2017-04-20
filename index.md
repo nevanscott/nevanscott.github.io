@@ -3,7 +3,7 @@
 
 <p class="lede" markdown="1">Hi there! I teach design at [General Assembly](http://generalassemb.ly/) in New York and work with illustrators and editors at [Midnight Breakfast](http://midnightbreakfast.com/). Some of my previous work can be seen at [Cantilever](http://cantilever.co/work/).</p>
 
-You can also find me on Twitter as <a href="https://twitter.com/nevan" rel="me">@nevan</a>.
+You can also find me at <a href="http://notated.org">notated.org</a> on Twitter as <a href="https://twitter.com/nevan" rel="me">@nevan</a>.
 
 
 Teaching
