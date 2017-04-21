@@ -343,6 +343,9 @@ iframe {
 .footnotes {
   font-size: smaller;
   margin-top: 2.8em;
+  hr {
+    display: none;
+  }
   &:before {
     border-top: 1px solid rgba(0,0,0,.15);
     content: '';
