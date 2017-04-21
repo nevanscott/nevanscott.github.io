@@ -170,6 +170,9 @@ dd {
 blockquote {
   font-family: $sans;
   font-size: smaller;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1.4em;
   &:before {
     color: hsl(50,93,48);
     content: '“';
