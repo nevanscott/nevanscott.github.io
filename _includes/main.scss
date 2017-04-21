@@ -174,12 +174,13 @@ dd {
   padding: 0;
 }
 blockquote {
+  box-sizing: border-box;
   font-family: $sans;
   font-size: smaller;
   margin-left: 0;
   margin-right: 0;
-  padding-left: 4.5em;
-  padding-right: 4.5em;
+  padding-left: 2.8em;
+  padding-right: 2.8em;
   &:before {
     color: hsl(50,93,48);
     content: '“';
