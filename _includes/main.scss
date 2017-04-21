@@ -49,6 +49,12 @@ main >, section >, article > {
     max-width: 47rem;
 	}
 }
+article {
+  margin-bottom: 2.8em;
+	@media #{$ssm} {
+	  margin-bottom: 3em;
+	}
+}
 
 hr {
   border: none;
