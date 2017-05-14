@@ -43,5 +43,5 @@ Web Books[^webbooks]
 
 
 
-[^webbooks]: I'm hesitant to even separate these out, as I generally prefer to think about the term "book" very holistically. However, these are available as free resources, and all have slightly different models for how their authors intend to sustain them. There is nothing quotidian about publishing a book in this way, so for now I believe the distinction is worthy of note.
+[^webbooks]: I'm hesitant to even separate these out, as I generally prefer to think about the term "book" very holistically. However, these are available as free resources, and all have slightly different models for how their authors intend to sustain them. There is nothing quotidian [about publishing a book in this way](/webbooks/), so for now I believe the distinction is worthy of note.
 
