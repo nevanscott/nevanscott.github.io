@@ -5,7 +5,7 @@ title: Colophon
 A Note on the Type
 ------------------
 
-Body copy is set in [Chronicle][chronicle], Charter, Georgia, or your system's default serif.
+Body copy is set in [Chronicle][chronicle], Georgia, or your system's default serif.
 
 Headers and other copy are set in [Whitney][whitney], your system's user interface font[^uifont], or your system's default sans-serif.
 
