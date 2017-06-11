@@ -5,6 +5,7 @@ title: Reading
 Currently Reading
 -----------------
 
+* [<cite>Web Literacy for Student Fact-Checkers</cite> by Mike Caulfield](https://webliteracy.pressbooks.com/)
 * [<cite>Programming Design Systems</cite> by Rune Madsen](https://programmingdesignsystems.com)
 * [<cite>Thinking in Systems: A Primer</cite> by Donella H. Meadows](https://www.goodreads.com/book/show/3828902-thinking-in-systems)
 * [<cite>Beautiful Racket</cite> by Matthew Butterick](http://beautifulracket.com/)
