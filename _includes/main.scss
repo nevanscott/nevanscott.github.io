@@ -308,7 +308,8 @@ footer[role=contentinfo] {
 	}
 	nav {
 	  display: inline;
-	  &:before {
+	  a:before {
+	    color: inherit;
 	    content: ' · ';
 	    display: inline;
 	  }
