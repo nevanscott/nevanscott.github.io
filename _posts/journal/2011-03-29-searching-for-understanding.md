@@ -2,6 +2,8 @@
 layout: post
 title: Searching for Understanding
 published: Oct. 29, 2013
+teaser: |
+  People have shaped, sometimes by design, sometimes by accident, a world in which he must find a way to operate.
 ---
 
 There is a great human curiosity that tracks across the ages, across people, a yearning to say what is what and why. But it is nowhere more magnificent than in the individual, in his life.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Obscurity
+teaser: Popular ideas can be uninteresting simply because their shared nature has shaved off all the interesting bits.
 ---
 
 Obscurity is far more popular and widespread than popularity. Most, even we, the obscure, will, in a moment or more of popularity, never point this out and probably have a difficult time recalling its truth. But there it is.

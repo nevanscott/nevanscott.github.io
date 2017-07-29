@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Managing Change
+teaser: |
+  "Nevan, I've lived in a different world."
 ---
 
 Growing up, my grandmother always told me, "Nevan, I've lived in a different world." She was talking about the changes in technology over her lifetime, which made her feel as though the world had changed significantly enough to be as new. This always sparked my imagination, and I often tried to fill her in on what I thought were the remarkable developments going on -- often things with which she had little to no first-hand experience. She was born in a log cabin in 1910, rode to school in a buggie, and didn't have access to telephones. As a young woman starting out as a teacher, she was asked by the principal to spend half her time as secretary because she had taken quickly to the typewriter.

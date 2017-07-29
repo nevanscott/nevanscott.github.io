@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Modern Friendship
+teaser: |
+  Of course this mass of quips and check-ins and preening and exhibition doesn't represent or display the qualities of deeply connected friendship. (How could it?)
 ---
 
 In [Faux Friendship](http://chronicle.com/article/Faux-Friendship/49308/), William Deresiewicz argues that friendship -- once noble, private, intimate, and deeply meaningful -- has become watered down and scattered to the point of falseness:

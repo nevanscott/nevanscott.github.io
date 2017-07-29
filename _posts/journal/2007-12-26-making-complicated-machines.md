@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Making Complicated Machines
+teaser: |
+  The alphabet of computer language is as simple as they come, with two figures: 1 and 0, known as bits, which typically correspond to high and low voltage electronic pulses. From such a simple base, however, complex functionality can be achieved.
 ---
 
 Computers offer a fascinating window into the play between the simple and the complex. The alphabet of computer language is as simple as they come, with two figures: 1 and 0, known as bits, which typically correspond to high and low voltage electronic pulses. From such a simple base, however, complex functionality can be achieved. On the other hand, seemingly simple behavior can require a substantially complex arrangement of ones and zeros. It also requires well-designed complex machinery to sculpt the flow of bits into something useful.

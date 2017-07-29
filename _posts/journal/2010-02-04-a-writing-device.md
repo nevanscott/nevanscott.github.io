@@ -2,6 +2,8 @@
 layout: post
 title: A Writing Device
 published: true
+teaser: |
+  I never thought that typing with two thumbs on a screen with no tactile feedback on a device that sits comfortably in the palm could feel like writing. But it does.
 ---
 
 Let's be honest. In the short time that I've been a user of Apple's products, I have always been enthusiastic and excited about impending announcements. I was one of the few people who saw those fake videos of the iWalk and got all excited that a successor to the Newton was imminent. In fact, my excitement about portable computing in particular runs deep and further back than my use of Macs. There was a period in the 90s when I was avidly reading everything I could about what was going on in the worlds of Windows CE and the Palm Pilot. My family can probably recount for you how annoying I was about it. I would talk about small portable computers over lunch and dinner. When we went out, I would want to stop by CompUSA or Best Buy or Office Max, just to play around on devices like the LG Phenom, the HP Jornada 820, or the Psion Series 5mx and Revo.

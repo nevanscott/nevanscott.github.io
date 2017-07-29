@@ -1,6 +1,8 @@
 ---
 layout: post
 title: David Pogue on Cleaning Up the Clutter Online
+teaser:
+  The best way to tackle the readability of the web isn't by trying to automatically reformat it (although it's a good stop-gap).
 ---
 
 I believe I agree with the sentiment [here](http://pogue.blogs.nytimes.com/2009/11/06/cleaning-up-the-clutter-online/) regarding ads, especially on pages that are intended for reading.

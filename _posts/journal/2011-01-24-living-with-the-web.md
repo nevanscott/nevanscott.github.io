@@ -2,6 +2,8 @@
 layout: post
 title: Living with the Web
 date: January 24, 2011, 9pm
+teaser: |
+  I consider myself lucky to say that I generally feel like a productive contributor to the web, and a productive person in general.
 ---
 
 When I wake up, I check my email and a few websites. Sometimes I listen to a podcast or flip through something on my iPad. Sometimes (rarely) I make an effort to read the news. I often hop on Adium pretty soon after I wake up to see if anyone is online to chat with. I spend the majority of most days with my laptop, and it sits next to me as I fall asleep listening to a podcast or audiobook, and then wakes me up with an alarm in the morning. During the day I sometimes entertain myself by watching a TV show or two. I make a lot of phone calls most days to stay in touch with friends and family on the other coast, and even then I often have the computer open in front of me.

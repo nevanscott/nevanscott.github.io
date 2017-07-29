@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Making Hay
+teaser: |
+  If we have learned anything about humanity over the course of, well, recorded history, isn't it that we're a pretty resilient bunch?
 ---
 
 It is difficult to make an argument against the creative power and urge of people, which is a really good thing. In his Ted Talk [on music and passion](http://www.ted.com/talks/benjamin_zander_on_music_and_passion.html), Ben Zander begins:

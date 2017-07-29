@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Some Thoughts on Choice and Reason
+teaser: |
+  "What choice did you make here?"
 ---
 
 Last week I read Michael Bierut's <a href="http://www.designobserver.com/archives/002559.html">On (Design) Bullshit</a> in Design Observer from a couple of years ago. He talks about the need to give reasons for design choices in order to sell your work to clients:

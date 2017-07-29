@@ -1,6 +1,8 @@
 ---
 layout: post
 title: John Kricfalusi's Review of Meatballs
+teaser: |
+  I often find myself settling for the little things in a movie that make it good, rather than expecting something more, maybe in order to seem less like a cynic and an asshole.
 ---
 
 For context, John Kricfalusi created The Ren & Stimpy Show. Here's [his take](http://johnkstuff.blogspot.com/2009/09/review-of-meatballs.html) on the new movie based on Cloudy with a Chance of Meatballs:
