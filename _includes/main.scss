@@ -235,7 +235,7 @@ a {
 	  var(--link-underline-color);
 	color: inherit;
 	text-decoration: none;
-	text-shadow: 0 2px 0 var(--page-color);
+	text-shadow: 0 1px 0 var(--page-color);
 	-webkit-transition: box-shadow 250ms;
 	transition: box-shadow 250ms;
 	&:hover {
