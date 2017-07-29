@@ -1,6 +1,8 @@
 ---
 title: Marfa Journal
 url: http://marfajournal.com/
+teaser: |
+  There is something to this approach to design, perhaps an exploration of the medium itself, fascinating to see still going on even as the web has entered its third decade.
 ---
 
 I'm posting this purely for the fact that it's a fascinating website[^marfajournal], designed by [Andrew McCarthy](http://andrevv.com), who apparently also just helped finish up the redesign for the [Django website](https://www.djangoproject.com).

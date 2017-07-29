@@ -1,5 +1,7 @@
 ---
 title: I'm confused.
+teaser: |
+  I want to admit something that I wish more people would admit.
 ---
 
 I want to admit something that I wish more people would admit: I'm confused.

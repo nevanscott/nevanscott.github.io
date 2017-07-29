@@ -2,6 +2,8 @@
 layout: post
 title: Beginners
 published: true
+teaser: |
+  It's an exciting way for a relationship to start: one of the partners able only to nod and write little bits in a notebook, the other doing his best to make out what he can of her personality.
 ---
 
 A couple of weeks ago, I received this email from a friend:
@@ -31,8 +33,6 @@ It's an exciting way for a relationship to start: one of the partners able only 
 We start to get a third story as well, of Oliver and his mother when he's just a boy, his father always off doing work at the museum. I don't want to give much more of the story away, but it starts to become clear that Oliver undermines his romantic relationships in part because his parents never seemed happy, and that there is something of his mother's off-kilteredness in Anna.
 
 The movie is quite beautiful and at times moving. I felt like it slowed toward the end, but is still worth seeing. Mary Page Keller's performance as Georgia, Oliver's mother, is especially fun. <cite>Beginners</cite> will appeal most strongly to romantic young people who want to keep hope for love alive, but perhaps haven't quite found it or figured it out yet.[^beginners5]
-
-<hr class="footnote" />
 
 [^beginners1]: She has spoken roughly like this since she became an Anglophile. (She's specifically enamored with Ireland, but I can't find a word for that, so it's a parenthetical in a footnote instead.)
 

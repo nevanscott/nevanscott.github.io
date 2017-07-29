@@ -1,5 +1,6 @@
 ---
 title: A New Attempt
+teaser: I'll write and publish when the mood strikes, and about whatever.
 ---
 
 <p>I haven’t done anything remotely close to blogging in years, and truth be told, I’m pretty sure it’s because I always want to blog but am just bad at it.</p>

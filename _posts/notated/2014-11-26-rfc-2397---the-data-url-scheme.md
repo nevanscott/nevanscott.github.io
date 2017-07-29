@@ -1,6 +1,8 @@
 ---
 title: RFC 2397 - The "data" URL scheme
 url: https://tools.ietf.org/html/rfc2397
+teaser: |
+  "Some applications that use URLs also have a need to embed (small) media type data directly inline."
 ---
 
 I've still been having way too much fun playing around with [my self-editing data URL "page"][ouroboros], and wound up finding the original proposal for data URLs from the IETF dated August 1998:
@@ -15,16 +17,7 @@ I've still been having way too much fun playing around with [my self-editing dat
 
 And apparently the idea goes back even further:
 
-> This idea was originally proposed August 1995. Some versions of the
-   data URL scheme have been used in the definition of VRML, and a
-   version has appeared as part of a proposal for embedded data in HTML.
-   Various changes have been made, based on requests, to elide the media
-   type, pack the indication of the base64 encoding more tightly, and
-   eliminate "quoted printable" as an encoding since it would not easily
-   yield valid URLs without additional `%xx` encoding, which itself is
-   sufficient. The "data" URL scheme is in use in VRML, new applications
-   of HTML, and various commercial products. It is being used for object
-   parameters in Java and ActiveX applications.
+> This idea was originally proposed August 1995. Some versions of the data URL scheme have been used in the definition of VRML, and a version has appeared as part of a proposal for embedded data in HTML. Various changes have been made, based on requests, to elide the media type, pack the indication of the base64 encoding more tightly, and eliminate "quoted printable" as an encoding since it would not easily yield valid URLs without additional `%xx` encoding, which itself is sufficient. The "data" URL scheme is in use in VRML, new applications of HTML, and various commercial products. It is being used for object parameters in Java and ActiveX applications.
 
 I kind of love looking at older documents like this about the inner workings of the web. I primarily see them used for inlining images, as [outlined by Chris Coyier](http://css-tricks.com/data-uris/), but the idea of encoding an entire page is just somehow still tripping me out.
 

@@ -1,6 +1,8 @@
 ---
 title: Unhosted Web Apps
 url: https://unhosted.org/
+teaser: |
+  There is a tradeoff between ownership over something and the amount of work that is required.
 ---
 
 I stumbled upon this today, as a group that Duck Duck Go[^duck] had given money to. Much of this is either over my head or simply too much work, but these are clearly people who are taking the idea of owning their own space on the web very seriously.[^homeowners]

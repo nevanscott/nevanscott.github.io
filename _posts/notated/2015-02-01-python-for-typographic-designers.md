@@ -1,6 +1,8 @@
 ---
 title: Python for (typo)graphic designers
 url: http://pyftgd.org/
+teaser: |
+  I'm afraid that I will always find my own eye for design and taste informed by things like "build quality" and my design ideas strengthened and stunted by my knowledge of the possibilities of the medium.
 ---
 
 [Joancarles Casasín](http://casasin.com/) and [Gustavo Ferreira](http://hipertipo.com/):

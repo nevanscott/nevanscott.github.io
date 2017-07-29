@@ -1,6 +1,8 @@
 ---
 title: How To Scroll
 url: http://bost.ocks.org/mike/scroll/
+teaser: |
+  "Often, I hear people refer to these designs as 'intuitive' and 'immersive,' but I find those words maddeningly vague."
 ---
 
 Mike Bostock:

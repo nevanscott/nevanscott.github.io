@@ -1,5 +1,7 @@
 ---
 title: '"American Homeowner"'
+teaser: |
+  So I've been asking myself, where are the safe spaces? Where can we make homes that protect ourselves against this kind of abuse?
 ---
 
 I'm on my break between classes right now, so I've been feeling especially reflective, leading me to get this site back up again, catch up some on my reading, lose my train of thought on a couple of other projects, and of course start re-watching all of <cite>Boston Legal</cite>.

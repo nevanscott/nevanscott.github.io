@@ -1,6 +1,10 @@
 ---
 layout: post
 title: No se Aceptan Devoluciones
+teaser: |
+  This is a story we know: two young people afraid of commitment are forced together and find love.
+  
+  But <cite>Instructions</cite> has something else up its sleeve.
 ---
 
 This evening I had a craving for a Nathan's corn dog, and made haste to the nearest one I could find, located in downtown Brooklyn. I am still relatively new to the area, and found out upon arrival that the location had closed since the last time Google had gone by to take a picture.
@@ -24,8 +28,6 @@ Cue a phone call from the real Julie (Jessica Lindsey), and a deft transition fr
 I don't want to spoil anything further, except to say that this was one of the most moving stories I've seen in some time, with many surprises and delights, and a touching narrative about life, love, and family. The musical score is overused to convey the emotional states, and the movie veers too far into melodrama[^derbez] at times, but it is all worthwhile in the end.
 
 Highly recommended.[^machete]
-
-<hr class="footnote" />
 
 [^corndog]: A few weeks ago, I had gone to this particular theater on a rare night off after work to see <cite>The Wolverine</cite>. Having arrived when the movie was already in trailers, and hungry, I noticed the man in front of me had ordered the corn dog combo, so I decided to give it a go. I was in a rush, so I grabbed some mustard packets and made my way into the already pitch-black theater. Feeling a bit voracious and unable to see my food, or even where I was squirting the mustard, those corn dog bites really hit the spot. The movie did not.
 

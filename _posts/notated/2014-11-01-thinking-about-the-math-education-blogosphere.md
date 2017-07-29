@@ -1,5 +1,7 @@
 ---
 title: Thinking about the math education blogosphere
+teaser: |
+  I want streams I can jump into and splash around, where people aren't focused on the nature of water or how it's flowing.
 ---
 
 I've never really been a blogger, despite trying my hand at it on various occasions over the years, but I have been very interested to see the recent crop of new attention to blogging in what I think of as the "meta" blogosphere.

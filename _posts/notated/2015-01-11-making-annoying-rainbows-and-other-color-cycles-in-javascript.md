@@ -1,6 +1,8 @@
 ---
 title: Making annoying rainbows and other color cycles in Javascript
 url: http://krazydad.com/tutorials/makecolors.php
+teaser: |
+  It's nerdy in all the ways I like, touching on color theory and basic programming, and illustrated with visual examples of the output.
 ---
 
 Jim Bumgardner has a nice little tutorial on writing code to cycle through colors. It's a good read to be sure, but I also wanted to link to it because of how I got to it.

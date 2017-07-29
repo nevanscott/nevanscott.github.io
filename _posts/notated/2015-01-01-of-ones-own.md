@@ -1,5 +1,7 @@
 ---
 title: Of One's Own
+teaser: |
+  At Midnight Breakfast, we are trying to build something independent and as universally accessible as possible.
 ---
 
 *I wrote this yesterday for the [Midnight Breakfast newsletter](http://midnightbreakfast.com/signup/).*
