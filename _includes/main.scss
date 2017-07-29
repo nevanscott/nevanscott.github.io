@@ -1,43 +1,77 @@
-$serif: Chronicle, Georgia, serif;
-$sans: Whitney, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Avenir, Noto, sans-serif;
-$serif: "chaparral-pro-1", "chaparral-pro-2", "Chaparral Pro", Georgia, serif;
-$sans: $serif;
-$ratio: 1.618;
 $ssm: "all and (min-width: 35em)";
 $ssl: "all and (min-width: 45em)";
 
-// Settings
-
-:root {
+// Color
+:root, html.daylight {
+  --brand-strip-color: #{ hsl(50,90,50) };
+  --brand-text-color: #{ hsl(50,93,48) };
+  --figure-drop-color: #{ rgba(0,0,0,.1) };
+  --figure-stroke-color: #{ rgba(0,0,0,.2) };
+  --hair-stroke-color: #{ rgba(0,0,0,.15) };
+  --header-background: #{ hsl(40,30,12) };
+  --header-stroke-style: none;
+  --header-text-color: white;
+  --header-text-muted-color: #{ rgba(255,255,255,.6) };
+  --highlight-color: #{ rgba(0,0,0,.1) };
   --link-underline-color: #{ hsl(50,95,50) };
   --link-underline-color--hover: #{ hsl(40,95,45) };
-  --link-underline-width: 2px;
   --page-color: #{ hsl(60,10,95) };
   --page-color: white;
   --text-color: #{ rgba(0,0,0,.8) };
   --text-display-color: black;
   --text-muted-color: #{ rgba(0,0,0,.4) };
-  --highlight-color: #{ rgba(0,0,0,.1) };
-  --brand-strip-color: #{ hsl(50,90,50) };
   --thin-stroke-color: #{ rgba(0,0,0,.25) };
-  --hair-stroke-color: #{ rgba(0,0,0,.15) };
-  --figure-stroke-color: #{ rgba(0,0,0,.2) };
-  --figure-drop-color: #{ rgba(0,0,0,.1) };
-  --figure-drop-offset: .5em -.5em 0;
 }
 html.night {
+  --brand-strip-color: #{ hsl(50,90,40) };
+  --figure-drop-color: #{ rgba(255,255,255,.1) };
+  --figure-stroke-color: #{ rgba(255,255,255,.2) };
+  --hair-stroke-color: #{ rgba(255,255,255,.2) };
+  --header-background: none;
+  --header-stroke-style: #{ 1px solid rgba(255,255,255,.2) };
+  --header-text-color: var(--text-display-color);
+  --header-text-muted-color: var(--text-muted-color);
+  --highlight-color: #{ rgba(255,255,255,.1) };
+  --link-underline: #{ hsl(50,85,40) };
+  --link-underline--hover: #{ hsl(35,90,45) };
+  --page-color: black;
+  --text-color: #{ rgba(255,255,255,.6) };
+  --text-display-color: #{ rgba(255,255,255,.8) };
+  --text-muted-color: #{ rgba(255,255,255,.4) };
+  --thin-stroke-color: #{ rgba(255,255,255,.25) };
+}
+html.sunset {
+  --brand-strip-color: #{ hsl(50,95,45) };
+  --figure-drop-color: #{ rgba(255,255,255,.1) };
+  --figure-stroke-color: #{ rgba(255,255,255,.2) };
+  --hair-stroke-color: #{ rgba(255,255,255,.2) };
+  --header-background: none;
+  --header-stroke-style: #{ 1px solid rgba(255,255,255,.2) };
+  --header-text-color: var(--text-display-color);
+  --header-text-muted-color: var(--text-muted-color);
+  --highlight-color: #{ rgba(255,255,255,.1) };
   --link-underline: #{ hsl(50,90,45) };
   --link-underline--hover: #{ hsl(35,95,50) };
   --page-color: #{ hsl(220,50,25) };
   --text-color: #{ rgba(255,255,255,.9) };
   --text-display-color: white;
   --text-muted-color: #{ rgba(255,255,255,.6) };
-  --highlight-color: #{ rgba(255,255,255,.1) };
-  --brand-strip-color: #{ hsl(50,95,45) };
   --thin-stroke-color: #{ rgba(255,255,255,.25) };
-  --hair-stroke-color: #{ rgba(255,255,255,.2) };
-  --figure-stroke-color: #{ rgba(255,255,255,.2) };
-  --figure-drop-color: #{ rgba(255,255,255,.1) };
+}
+
+// Type
+:root {
+  --font-family: "chaparral-pro-1", "chaparral-pro-2", "Chaparral Pro", Georgia, serif;
+  --font-family-decorative: var(--font-family);
+  --font-family-display: var(--font-family);
+  --font-family-caption: var(--font-family);
+  --font-family-text: var(--font-family);
+}
+
+// Decoration
+:root {
+  --figure-drop-offset: .5em -.5em 0;
+  --link-underline-width: 2px;
 }
 @media #{$ssm} {
   :root {
@@ -58,7 +92,7 @@ body {
 	background: var(--page-color);
 	border-top: .25em solid var(--brand-strip-color);
 	color: var(--text-color);
-	font-family: $serif;
+	font-family: var(--font-family);
 	font-size: 18px;
 	line-height: 1.4;
 	margin: 0;
@@ -103,7 +137,7 @@ hr {
 
 h1, h2, h3 {
   color: var(--text-display-color);
-	font-family: $sans;
+	font-family: var(--font-family-display);
 }
 h1 {
 	font-size: 1.25em;
@@ -119,7 +153,7 @@ p {
 	margin: 0 auto 1.25em;
 	&.lede {
 	  color: var(--text-display-color);
-	  font-family: $sans;
+	  font-family: var(--font-family-display);
 	  font-size: 1.25em;
 	  font-weight: 700;
 	  line-height: 1.3;
@@ -143,7 +177,7 @@ figure {
     }
   }
   figcaption {
-    font-family: $sans;
+    font-family: var(--font-family-caption);
     font-size: smaller;
     margin-bottom: 2.8em;
     margin-top: .7em;
@@ -187,7 +221,7 @@ ul {
   list-style: square;
 }
 dt {
-  font-family: $sans;
+  font-family: var(--font-family-text);
   font-size: .9em;
   font-weight: bold;
   margin-top: 1.6em;
@@ -198,25 +232,25 @@ dd {
 }
 blockquote {
   box-sizing: border-box;
-  font-family: $sans;
+  font-family: var(--font-family-text);
   font-size: smaller;
   margin-left: 0;
   margin-right: 0;
   padding-left: 2.8em;
   padding-right: 2.8em;
   &:before {
-    color: hsl(50,93,48);
+    color: var(--brand-text-color);
     content: '“';
     display: block;
     float: left;
-    font-family: $serif;
+    font-family: var(--font-family-decorative);
     font-size: 3em;
     font-weight: bold;
     margin-left: -.7em;
     margin-top: -.4em;
   }
   blockquote {
-    border-left: 1px solid hsl(50,95,50);
+    border-left: 1px solid var(--brand-strip-color);
     font-size: 1em;
     margin-left: 1em;
     margin-right: 1.4em;
@@ -255,14 +289,11 @@ a {
 }
 
 header[role=banner] {
-  background: hsl(40,30,12);
-  color: white;
+  background: var(--header-background);
+  border-bottom: var(--header-stroke-style);
+  color: var(--header-text-color);
   margin-bottom: 1.5em;
   overflow: auto;
-	html.night & {
-	  background: none;
-	  border-bottom: 1px solid rgba(255,255,255,.2);
-	}
   h1 {
     color: inherit;
     @media #{$ssl} {
@@ -280,11 +311,11 @@ header[role=banner] {
       margin-top: 1.75em;
     }
     a {
-      color: rgba(255,255,255,.6);
-      font-family: $sans;
+      color: var(--header-text-muted-color);
+      font-family: var(--font-family);
       margin-right: .75em;
       &.active, &.selected {
-        color: white;
+        color: var(--header-text-color);
       }
       &[rel=home] {
         display: none;
@@ -306,7 +337,7 @@ main[role=main] {
 
 footer[role=contentinfo] {
   border-top: 1px solid var(--hair-stroke-color);
-  font-family: $sans;
+  font-family: var(--font-family);
   font-size: smaller;
   margin-top: 3em;
   padding-top: .7em;
@@ -338,7 +369,7 @@ footer[role=contentinfo] {
 }
 
 .footnote {
-  background: rgba(0,0,0,.2);
+  background: var(--highlight-color);
   box-shadow: unset;
   border-radius: 2em;
   font-size: .75em;
