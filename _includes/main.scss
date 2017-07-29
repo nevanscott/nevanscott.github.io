@@ -2,7 +2,7 @@ $ssm: "all and (min-width: 35em)";
 $ssl: "all and (min-width: 45em)";
 
 // Color
-:root, [data-lightingmode=day], [data-lightingmode=daybreak] {
+:root, [data-lightingmode=day], [data-lightingmode=dawn] {
   --brand-stroke-color: #{ hsl(50,90,50) };
   --brand-text-color: #{ hsl(50,93,48) };
   --figure-drop-color: var(--highlight-color);
@@ -21,7 +21,7 @@ $ssl: "all and (min-width: 45em)";
   --text-muted-color: #{ rgba(0,0,0,.4) };
   --thin-stroke-color: #{ rgba(0,0,0,.25) };
 }
-[data-lightingmode=sunrise] {
+[data-lightingmode=dawn] {
   --page-color: #{ hsl(60,10,95) };
 }
 [data-lightingmode=night] {

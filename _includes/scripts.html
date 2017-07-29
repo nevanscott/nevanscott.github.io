@@ -8,7 +8,7 @@ if ( hour < 6 || hour >= 22 ) {
 } else if ( hour < 22 || hour >= 20 ) {
   document.getElementsByTagName('html')[0].dataset.lightingmode = 'dusk';
 } else if ( hour < 8 || hour >= 6 ) {
-  document.getElementsByTagName('html')[0].dataset.lightingmode = 'daybreak';
+  document.getElementsByTagName('html')[0].dataset.lightingmode = 'dawn';
 } else {
   document.getElementsByTagName('html')[0].dataset.lightingmode = 'day';
 }
