@@ -2,8 +2,8 @@ $ssm: "all and (min-width: 35em)";
 $ssl: "all and (min-width: 45em)";
 
 // Color
-:root, [data-lightingmode=daylight], [data-lightingmode=sunrise] {
-  --brand-strip-color: #{ hsl(50,90,50) };
+:root, [data-lightingmode=day], [data-lightingmode=daybreak] {
+  --brand-stroke-color: #{ hsl(50,90,50) };
   --brand-text-color: #{ hsl(50,93,48) };
   --figure-drop-color: var(--highlight-color);
   --figure-stroke-color: #{ rgba(0,0,0,.2) };
@@ -13,8 +13,8 @@ $ssl: "all and (min-width: 45em)";
   --header-text-color: white;
   --header-text-muted-color: #{ rgba(255,255,255,.6) };
   --highlight-color: #{ rgba(0,0,0,.1) };
-  --link-underline-color: #{ hsl(50,95,50) };
-  --link-underline-color--hover: #{ hsl(40,95,45) };
+  --link-stroke-color: #{ hsl(50,95,50) };
+  --link-stroke-color--hover: #{ hsl(40,95,45) };
   --page-color: white;
   --text-color: #{ rgba(0,0,0,.8) };
   --text-display-color: black;
@@ -25,7 +25,7 @@ $ssl: "all and (min-width: 45em)";
   --page-color: #{ hsl(60,10,95) };
 }
 [data-lightingmode=night] {
-  --brand-strip-color: #{ hsl(50,90,40) };
+  --brand-stroke-color: #{ hsl(50,90,40) };
   --figure-drop-color: var(--highlight-color);
   --figure-stroke-color: var(--hair-stroke-color);
   --hair-stroke-color: #{ rgba(255,255,255,.2) };
@@ -34,16 +34,16 @@ $ssl: "all and (min-width: 45em)";
   --header-text-color: var(--text-display-color);
   --header-text-muted-color: var(--text-muted-color);
   --highlight-color: #{ rgba(255,255,255,.1) };
-  --link-underline: #{ hsl(50,85,40) };
-  --link-underline--hover: #{ hsl(35,90,45) };
+  --link-stroke: #{ hsl(50,85,40) };
+  --link-stroke--hover: #{ hsl(35,90,45) };
   --page-color: black;
   --text-color: #{ rgba(255,255,255,.6) };
   --text-display-color: #{ rgba(255,255,255,.8) };
   --text-muted-color: #{ rgba(255,255,255,.4) };
   --thin-stroke-color: #{ rgba(255,255,255,.25) };
 }
-[data-lightingmode=sunset] {
-  --brand-strip-color: #{ hsl(50,95,45) };
+[data-lightingmode=dusk] {
+  --brand-stroke-color: #{ hsl(50,95,45) };
   --figure-drop-color: var(--highlight-color);
   --figure-stroke-color: var(--hair-stroke-color);
   --hair-stroke-color: #{ rgba(255,255,255,.2) };
@@ -52,8 +52,8 @@ $ssl: "all and (min-width: 45em)";
   --header-text-color: var(--text-display-color);
   --header-text-muted-color: var(--text-muted-color);
   --highlight-color: #{ rgba(255,255,255,.1) };
-  --link-underline: #{ hsl(50,90,45) };
-  --link-underline--hover: #{ hsl(35,95,50) };
+  --link-stroke: #{ hsl(50,90,45) };
+  --link-stroke--hover: #{ hsl(35,95,50) };
   --page-color: #{ hsl(220,50,25) };
   --text-color: #{ rgba(255,255,255,.9) };
   --text-display-color: white;
@@ -73,11 +73,11 @@ $ssl: "all and (min-width: 45em)";
 // Decoration
 :root {
   --figure-drop-offset: .5em -.5em 0;
-  --link-underline-width: 2px;
+  --link-stroke-width: 2px;
 }
 @media #{$ssm} {
   :root {
-    --link-underline-width: 3px;
+    --link-stroke-width: 3px;
   }
 }
 @media #{$ssl} {
@@ -92,7 +92,7 @@ html {
 
 body {
 	background: var(--page-color);
-	border-top: .25em solid var(--brand-strip-color);
+	border-top: .25em solid var(--brand-stroke-color);
 	color: var(--text-color);
 	font-family: var(--font-family);
 	font-size: 18px;
@@ -159,9 +159,9 @@ p {
 	  font-size: 1.25em;
 	  font-weight: 700;
 	  line-height: 1.3;
-	  --link-underline-width: 3px;
+	  --link-stroke-width: 3px;
     @media #{$ssm} {
-      --link-underline-width: 4px;
+      --link-stroke-width: 4px;
       line-height: 1.4;
     }
 	}
@@ -252,7 +252,7 @@ blockquote {
     margin-top: -.4em;
   }
   blockquote {
-    border-left: 1px solid var(--brand-strip-color);
+    border-left: 1px solid var(--brand-stroke-color);
     font-size: 1em;
     margin-left: 1em;
     margin-right: 1.4em;
@@ -267,8 +267,8 @@ a {
 	box-shadow:
 	  inset
 	  0
-	  calc(-1 * var(--link-underline-width))
-	  var(--link-underline-color);
+	  calc(-1 * var(--link-stroke-width))
+	  var(--link-stroke-color);
 	color: inherit;
 	text-decoration: none;
 	text-shadow: 0 1px 0 var(--page-color);
@@ -278,8 +278,8 @@ a {
     box-shadow:
       inset
       0
-      calc(-1 * var(--link-underline-width))
-      var(--link-underline-color--hover);
+      calc(-1 * var(--link-stroke-width))
+      var(--link-stroke-color--hover);
 	}
 	header[role=banner] &, footer[role=contentinfo] & {
 	  box-shadow: unset;

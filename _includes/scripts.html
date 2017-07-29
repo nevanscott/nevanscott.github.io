@@ -6,11 +6,11 @@ var hour = now.getHours();
 if ( hour < 6 || hour >= 22 ) {
   document.getElementsByTagName('html')[0].dataset.lightingmode = 'night';
 } else if ( hour < 22 || hour >= 20 ) {
-  document.getElementsByTagName('html')[0].dataset.lightingmode = 'sunset';
+  document.getElementsByTagName('html')[0].dataset.lightingmode = 'dusk';
 } else if ( hour < 8 || hour >= 6 ) {
-  document.getElementsByTagName('html')[0].dataset.lightingmode = 'sunrise';
+  document.getElementsByTagName('html')[0].dataset.lightingmode = 'daybreak';
 } else {
-  document.getElementsByTagName('html')[0].dataset.lightingmode = 'daylight';
+  document.getElementsByTagName('html')[0].dataset.lightingmode = 'day';
 }
 
 // Open external links in new tab
