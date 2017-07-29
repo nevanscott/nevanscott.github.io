@@ -2,10 +2,10 @@ $ssm: "all and (min-width: 35em)";
 $ssl: "all and (min-width: 45em)";
 
 // Color
-:root, html.daylight {
+:root, [data-lightingmode=daylight], [data-lightingmode=sunrise] {
   --brand-strip-color: #{ hsl(50,90,50) };
   --brand-text-color: #{ hsl(50,93,48) };
-  --figure-drop-color: #{ rgba(0,0,0,.1) };
+  --figure-drop-color: var(--highlight-color);
   --figure-stroke-color: #{ rgba(0,0,0,.2) };
   --hair-stroke-color: #{ rgba(0,0,0,.15) };
   --header-background: #{ hsl(40,30,12) };
@@ -15,20 +15,22 @@ $ssl: "all and (min-width: 45em)";
   --highlight-color: #{ rgba(0,0,0,.1) };
   --link-underline-color: #{ hsl(50,95,50) };
   --link-underline-color--hover: #{ hsl(40,95,45) };
-  --page-color: #{ hsl(60,10,95) };
   --page-color: white;
   --text-color: #{ rgba(0,0,0,.8) };
   --text-display-color: black;
   --text-muted-color: #{ rgba(0,0,0,.4) };
   --thin-stroke-color: #{ rgba(0,0,0,.25) };
 }
-html.night {
+[data-lightingmode=sunrise] {
+  --page-color: #{ hsl(60,10,95) };
+}
+[data-lightingmode=night] {
   --brand-strip-color: #{ hsl(50,90,40) };
-  --figure-drop-color: #{ rgba(255,255,255,.1) };
-  --figure-stroke-color: #{ rgba(255,255,255,.2) };
+  --figure-drop-color: var(--highlight-color);
+  --figure-stroke-color: var(--hair-stroke-color);
   --hair-stroke-color: #{ rgba(255,255,255,.2) };
   --header-background: none;
-  --header-stroke-style: #{ 1px solid rgba(255,255,255,.2) };
+  --header-stroke-style: #{ 2px solid var(--hair-stroke-color) };
   --header-text-color: var(--text-display-color);
   --header-text-muted-color: var(--text-muted-color);
   --highlight-color: #{ rgba(255,255,255,.1) };
@@ -40,13 +42,13 @@ html.night {
   --text-muted-color: #{ rgba(255,255,255,.4) };
   --thin-stroke-color: #{ rgba(255,255,255,.25) };
 }
-html.sunset {
+[data-lightingmode=sunset] {
   --brand-strip-color: #{ hsl(50,95,45) };
-  --figure-drop-color: #{ rgba(255,255,255,.1) };
-  --figure-stroke-color: #{ rgba(255,255,255,.2) };
+  --figure-drop-color: var(--highlight-color);
+  --figure-stroke-color: var(--hair-stroke-color);
   --hair-stroke-color: #{ rgba(255,255,255,.2) };
   --header-background: none;
-  --header-stroke-style: #{ 1px solid rgba(255,255,255,.2) };
+  --header-stroke-style: #{ 1px solid var(--hair-stroke-color) };
   --header-text-color: var(--text-display-color);
   --header-text-muted-color: var(--text-muted-color);
   --highlight-color: #{ rgba(255,255,255,.1) };
