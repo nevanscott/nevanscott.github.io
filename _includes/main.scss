@@ -111,11 +111,11 @@ $ssl: "all and (min-width: 45em)";
 // Decoration
 :root {
   --figure-drop-offset: .5em -.5em 0;
-  --link-stroke-width: 2px;
+  --link-stroke-width: 1px;
 }
 @media #{$ssm} {
   :root {
-    --link-stroke-width: 3px;
+    --link-stroke-width: 2px;
   }
 }
 @media #{$ssl} {
