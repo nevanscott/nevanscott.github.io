@@ -337,25 +337,26 @@ header[role=banner] {
   color: var(--header-text-color);
   margin-bottom: var(--type-space-single);
   overflow: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   h1 {
     color: inherit;
     font-size: var(--font-size);
     font-weight: normal;
-    @media #{$ssl} {
-      float: left;
-      margin: var(--type-space-half) 0; 
-    }
   }
   nav {
     font-size: var(--font-size);
-    @media #{$ssl} {
-      float: right;
-      margin-top: var(--type-space-half);
-    }
+    display: flex;
+    flex-wrap: wrap;
     a {
       color: var(--header-text-muted-color);
       font-family: var(--font-family);
       margin-right: var(--type-space-pinch);
+      &:last-child {
+        margin-right: 0;
+      }
       &.active, &.selected {
         color: var(--header-text-color);
       }
@@ -364,10 +365,6 @@ header[role=banner] {
         @media #{$ssm} {
           display: inline;
         }
-      }
-      @media #{$ssl} {
-        margin-left: var(--type-space-pinch);
-        margin-right: 0;
       }
     }
   }
