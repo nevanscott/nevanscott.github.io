@@ -322,24 +322,23 @@ header[role=banner] {
   overflow: auto;
   h1 {
     color: inherit;
+    font-size: var(--font-size);
+    font-weight: normal;
     @media #{$ssl} {
-      float: left;    
+      float: left;
+      margin: var(--type-space-half) 0; 
     }
   }
   nav {
-    font-size: .75em;
-    font-weight: bold;
-    letter-spacing: .1em;
-    margin-bottom: .5em;
-    text-transform: uppercase;
+    font-size: var(--font-size);
     @media #{$ssl} {
       float: right;
-      margin-top: 1.75em;
+      margin-top: var(--type-space-half);
     }
     a {
       color: var(--header-text-muted-color);
       font-family: var(--font-family);
-      margin-right: .75em;
+      margin-right: var(--type-space-pinch);
       &.active, &.selected {
         color: var(--header-text-color);
       }
@@ -350,7 +349,7 @@ header[role=banner] {
         }
       }
       @media #{$ssl} {
-        margin-left: 1.5em;
+        margin-left: var(--type-space-pinch);
         margin-right: 0;
       }
     }
@@ -369,7 +368,7 @@ main[role=main] {
 footer[role=contentinfo] {
   border-top: 1px solid var(--hair-stroke-color);
   font-family: var(--font-family);
-  font-size: var(--font-size-caption);
+  font-size: var(--font-size);
   margin-top: var(--type-space-double);
   padding-top: var(--type-space-dash);
 	nav {
