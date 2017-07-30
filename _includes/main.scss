@@ -185,9 +185,9 @@ p {
 	  font-size: var(--font-size-heading);
 	  font-style: italic;
 	  line-height: var(--line-height-heading);
-	  --link-stroke-width: 3px;
+	  --link-stroke-width: 2px;
     @media #{$ssm} {
-      --link-stroke-width: 4px;
+      --link-stroke-width: 3px;
     }
 	}
 }
