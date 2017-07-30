@@ -292,20 +292,35 @@ blockquote {
 a {
 	box-shadow:
 	  inset
-	  0
-	  calc(-1 * var(--link-stroke-width))
-	  var(--link-stroke-color);
+      0
+      calc(-1 * var(--link-stroke-width))
+      var(--page-color)
+    ,
+	  inset
+      0
+      calc(-2 * var(--link-stroke-width))
+      var(--link-stroke-color)
+    ;
 	color: inherit;
 	text-decoration: none;
-	text-shadow: 0 1px 0 var(--page-color);
+	text-shadow:
+	  0 1px 0 var(--page-color),
+	  1px 1px 0 var(--page-color),
+	  -1px 1px 0 var(--page-color);
 	-webkit-transition: box-shadow 250ms;
 	transition: box-shadow 250ms;
 	&:hover {
     box-shadow:
       inset
-      0
-      calc(-1 * var(--link-stroke-width))
-      var(--link-stroke-color--hover);
+        0
+        calc(-1 * var(--link-stroke-width))
+        var(--page-color)
+      ,
+      inset
+        0
+        calc(-2 * var(--link-stroke-width))
+        var(--link-stroke-color--hover)
+      ;
 	}
 	header[role=banner] &, footer[role=contentinfo] & {
 	  box-shadow: unset;
