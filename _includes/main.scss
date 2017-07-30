@@ -113,10 +113,12 @@ $ssl: "all and (min-width: 45em)";
 :root {
   --figure-drop-offset: .5em -.5em 0;
   --link-stroke-width: 1px;
+  --link-stroke-width-heading: 2px;
 }
 @media #{$ssm} {
   :root {
     --link-stroke-width: 2px;
+    --link-stroke-width-heading: 3px;
   }
 }
 @media #{$ssl} {
@@ -171,6 +173,7 @@ h1, h2, h3 {
 }
 h1 {
 	font-size: var(--font-size-heading);
+  --link-stroke-width: var(--link-stroke-width-heading);
 }
 h2 {
 	font-size: var(--font-size-subhead);
@@ -187,10 +190,7 @@ p {
 	  font-size: var(--font-size-heading);
 	  font-style: italic;
 	  line-height: var(--line-height-heading);
-	  --link-stroke-width: 2px;
-    @media #{$ssm} {
-      --link-stroke-width: 3px;
-    }
+	  --link-stroke-width: var(--link-stroke-width-heading);
 	}
 }
 figure {
