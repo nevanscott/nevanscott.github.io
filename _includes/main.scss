@@ -68,6 +68,44 @@ $ssl: "all and (min-width: 45em)";
   --font-family-display: var(--font-family);
   --font-family-caption: var(--font-family);
   --font-family-text: var(--font-family);
+  --font-size: 18px;
+  --font-size-base: var(--font-size);
+  --font-size-text: var(--font-size);
+  --font-size-title: calc(1.25 * var(--font-size));
+  --font-size-decorative: calc(3 * var(--font-size));
+  --font-size-heading: calc(1.25 * var(--font-size));
+  --font-size-subhead: calc(0.85 * var(--font-size));
+  --font-size-caption: calc(0.85 * var(--font-size));
+  --font-size-micro: calc(0.75 * var(--font-size));
+  --line-height: 1.3;
+  --line-height-base: calc(var(--font-size) * var(--line-height));
+  --line-height-heading: 1.2;
+  --reading-measure: calc(22 * var(--line-height-base));
+  --type-space-fifth: calc(0.2 * var(--line-height-base));
+  --type-space-half: calc(0.5 * var(--line-height-base));
+  --type-space-single: calc(1 * var(--line-height-base));
+  --type-space-double: calc(2 * var(--line-height-base));
+  --type-space-tad: calc(1 * var(--line-height-base));
+  --type-space-dash: calc(0.5 * var(--line-height-base));
+  --type-space-pinch: calc(0.25 * var(--line-height-base));
+  --type-space-smidgen: calc(0.125 * var(--line-height-base));
+}
+@media #{$ssm} {
+  :root {
+    --font-size: 20px;
+    --font-size-title: calc(2 * var(--font-size));
+    --line-height: 1.4;
+    --line-height-heading: 1.3;
+    --type-space-tad: calc(2 * var(--line-height-base));
+    --type-space-dash: calc(1 * var(--line-height-base));
+    --type-space-pinch: calc(0.5 * var(--line-height-base));
+    --type-space-smidgen: calc(0.25 * var(--line-height-base));
+  }
+}
+@media #{$ssl} {
+  :root {
+    --font-size: 24px;
+  }
 }
 
 // Decoration
@@ -95,41 +133,29 @@ body {
 	border-top: .25em solid var(--brand-stroke-color);
 	color: var(--text-color);
 	font-family: var(--font-family);
-	font-size: 18px;
-	line-height: 1.4;
+	font-size: var(--font-size);
+	line-height: var(--line-height);
 	margin: 0;
 	min-height: 100%;
-	padding-bottom: .7em;
-	@media #{$ssm} {
-		font-size: 20px;
-		line-height: 1.5;
-		padding-bottom: 1.4em;
-	}
+	padding-bottom: var(--type-space-dash);
 }
 
 header, main, section, footer {
 	margin: auto;
-	padding-left: .7em;
-	padding-right: .7em;
+	padding-left: var(--type-space-dash);
+	padding-right: var(--type-space-dash);
 	position: relative;
 	z-index: 2;
-	@media #{$ssm} {
-		padding-left: 1.4em;
-		padding-right: 1.4em;
-	}
 }
 main >, section >, article > {
   h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, dl, time, hr,  .footnotes {
     margin-left: auto;
     margin-right: auto;
-    max-width: 42rem;
+    max-width: var(--reading-measure);
 	}
 }
 article {
-  margin-bottom: 2.8em;
-	@media #{$ssm} {
-	  margin-bottom: 3em;
-	}
+  margin-bottom: var(--type-space-double);
 }
 
 hr {
@@ -142,32 +168,31 @@ h1, h2, h3 {
 	font-family: var(--font-family-display);
 }
 h1 {
-	font-size: 1.25em;
+	font-size: var(--font-size-heading);
 }
 h2 {
-	font-size: .85em;
+	font-size: var(--font-size-subhead);
 	font-weight: bold;
 	letter-spacing: .1em;
-	margin: 2.8em 0 1.4em;
+	margin: var(--type-space-double) 0 var(--type-space-single);
 	text-transform: uppercase;
 }
 p {
-	margin: 0 auto 1.25em;
+	margin: 0 auto var(--type-space-single);
 	&.lede {
 	  color: var(--text-display-color);
 	  font-family: var(--font-family-display);
-	  font-size: 1.25em;
-	  font-weight: 700;
-	  line-height: 1.3;
+	  font-size: var(--font-size-heading);
+	  font-style: italic;
+	  line-height: var(--line-height-heading);
 	  --link-stroke-width: 3px;
     @media #{$ssm} {
       --link-stroke-width: 4px;
-      line-height: 1.4;
     }
 	}
 }
 figure {
-  margin: 0 0 1.25em;
+  margin: 0 0 var(--type-space-single);
   padding: 0;
   &.screenshot .browser {
     border: 1px solid var(--figure-stroke-color);
@@ -181,16 +206,16 @@ figure {
   figcaption {
     font-family: var(--font-family-caption);
     font-size: smaller;
-    margin-bottom: 2.8em;
-    margin-top: .7em;
+    margin-bottom: var(--type-space-double);
+    margin-top: var(--type-space-half);
     h2 {
-      margin-top: .7em;
-      margin-bottom: .7em;
+      margin-top: var(--type-space-half);
+      margin-bottom: var(--type-space-half);
     }
   }
   @media #{$ssl} {
     &.screenshot {
-      padding-bottom: 1.4em;
+      padding-bottom: var(--type-space-single);
       overflow: auto;
       .browser {
         float: left;
@@ -200,7 +225,7 @@ figure {
         box-sizing: border-box;
         float: right;
         margin-bottom: 0;
-        margin-top: 1.4em;
+        margin-top: var(--type-space-single);
         width: 37%;
       }
     }
@@ -212,24 +237,23 @@ img {
 time {
   color: var(--text-muted-color);
   display: block;
-  margin: 0 auto 1.25em;
+  margin: 0 auto var(--type-space-single);
 }
 code {
   background: var(--highlight-color);
   border-radius: .25em;
-  padding: 0 .2em;
+  padding: 0 var(--type-space-fifth);
 }
 ul {
   list-style: square;
 }
 dt {
   font-family: var(--font-family-text);
-  font-size: .9em;
   font-weight: bold;
-  margin-top: 1.6em;
+  margin-top: var(--type-space-single);
 }
 dd {
-  margin: .7em 0 1.4em;
+  margin: var(--type-space-half) 0 var(--type-space-single);
   padding: 0;
 }
 blockquote {
@@ -238,15 +262,15 @@ blockquote {
   font-size: smaller;
   margin-left: 0;
   margin-right: 0;
-  padding-left: 2.8em;
-  padding-right: 2.8em;
+  padding-left: var(--type-space-double);
+  padding-right: var(--type-space-double);
   &:before {
     color: var(--brand-text-color);
     content: '“';
     display: block;
     float: left;
     font-family: var(--font-family-decorative);
-    font-size: 3em;
+    font-size: var(--font-size-decorative);
     font-weight: bold;
     margin-left: -.7em;
     margin-top: -.4em;
@@ -254,9 +278,9 @@ blockquote {
   blockquote {
     border-left: 1px solid var(--brand-stroke-color);
     font-size: 1em;
-    margin-left: 1em;
-    margin-right: 1.4em;
-    padding-left: 1em;
+    margin-left: var(--type-space-single);
+    margin-right: var(--type-space-single);
+    padding-left: var(--type-space-single);
     padding-right: 0;
     &:before {
       display: none;
@@ -294,7 +318,7 @@ header[role=banner] {
   background: var(--header-background);
   border-bottom: var(--header-stroke-style);
   color: var(--header-text-color);
-  margin-bottom: 1.5em;
+  margin-bottom: var(--type-space-single);
   overflow: auto;
   h1 {
     color: inherit;
@@ -334,22 +358,24 @@ header[role=banner] {
 }
 
 main[role=main] {
-  margin-top: 2.8em;
+  margin-top: var(--type-space-double);
+  h1 {
+    font-size: var(--font-size-title);
+    font-weight: normal;
+    font-style: italic;
+  }
 }
 
 footer[role=contentinfo] {
   border-top: 1px solid var(--hair-stroke-color);
   font-family: var(--font-family);
-  font-size: smaller;
-  margin-top: 3em;
-  padding-top: .7em;
-	@media #{$ssm} {
-	  padding-top: 1.4em;
-	}
+  font-size: var(--font-size-caption);
+  margin-top: var(--type-space-double);
+  padding-top: var(--type-space-dash);
 	nav {
 	  display: inline;
 	  a:before {
-	    color: inherit;
+	    color: var(--text-color);
 	    content: ' · ';
 	    display: inline;
 	  }
@@ -357,8 +383,8 @@ footer[role=contentinfo] {
 }
 
 .footnotes {
-  font-size: smaller;
-  margin-top: 2.8em;
+  font-size: var(--font-size-caption);
+  margin-top: var(--type-space-double);
   hr {
     display: none;
   }
@@ -374,7 +400,7 @@ footer[role=contentinfo] {
   background: var(--highlight-color);
   box-shadow: unset;
   border-radius: 2em;
-  font-size: .75em;
+  font-size: var(--font-size-micro);
   margin: 0 1px;
   padding: 1px 1em;
   text-align: center;
@@ -384,7 +410,7 @@ footer[role=contentinfo] {
   background: none;
   box-shadow: unset;
   color: var(--text-muted-color);
-  font-size: smaller;
+  font-size: var(--font-size-micro);
   margin: 0 1px;
   padding: 0;
 }
