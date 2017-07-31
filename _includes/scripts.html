@@ -3,11 +3,11 @@
 // Lighting modes
 var now = new Date();
 var hour = now.getHours();
-if ( hour < 6 || hour >= 22 ) {
-  document.getElementsByTagName('html')[0].dataset.lightingmode = 'night';
-} else if ( hour < 22 && hour >= 20 ) {
+if ( hour >= 20 ) {
   document.getElementsByTagName('html')[0].dataset.lightingmode = 'dusk';
-} else if ( hour < 8 && hour >= 6 ) {
+} else if ( hour < 6 ) {
+  document.getElementsByTagName('html')[0].dataset.lightingmode = 'night';
+} else if ( hour < 9 ) {
   document.getElementsByTagName('html')[0].dataset.lightingmode = 'dawn';
 } else {
   document.getElementsByTagName('html')[0].dataset.lightingmode = 'day';
