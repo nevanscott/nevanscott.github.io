@@ -1,7 +1,9 @@
 ---
 ---
 
-<p class="lede" markdown="1">Hi there! I teach design at [General Assembly](http://generalassemb.ly/) in New York and work with illustrators and editors at [Midnight Breakfast](http://midnightbreakfast.com/). Some of my previous work can be seen at [Cantilever](http://cantilever.co/work/).</p>
+<p class="lede" markdown="1">Hi there! I'm a designer, teacher, and writer living in Berlin.</p>
+
+I recently joined [Edenspiekermann](https://www.edenspiekermann.com), and I work with illustrators and editors at [Midnight Breakfast](http://midnightbreakfast.com/). Previously, I taught design at [General Assembly](http://generalassemb.ly/) in New York. Some of my previous work can be seen at [Cantilever](http://cantilever.co/work/).
 
 You can also find me at <a href="http://notated.org">notated.org</a> on Twitter as <a href="https://twitter.com/nevan" rel="me">@nevan</a>.
 
@@ -9,7 +11,7 @@ You can also find me at <a href="http://notated.org">notated.org</a> on Twitter 
 Teaching
 --------
 
-I've [always wanted to teach](/teaching/). Over the course of the past few years, I've been able to take on more teaching engagements, first [at Noble Desktop](/noble/) now [at General Assembly](/ga/) where I teach full time.
+I've [always wanted to teach](/teaching/). Over the course of the past few years, I've been able to take on more teaching engagements, [at Noble Desktop](/noble/) and [at General Assembly](/ga/).
 
 As part of my general tendency to overthink whatever I'm doing, I've been reading more blogs [about education](/education/) in recent years, which has been a real pleasure. Reading and practicing have allowed me to start forming some of my own thoughts about teaching.
 
