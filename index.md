@@ -1,7 +1,7 @@
 ---
 ---
 
-<p class="lede" markdown="1">Hi there! I'm a designer, teacher, and writer living in Berlin.</p>
+<p class="lede" markdown="1">Hi there! I'm a [designer](/portfolio/), [teacher](/teaching/), and [writer](/writing/) living in Berlin.</p>
 
 I recently joined [Edenspiekermann](https://www.edenspiekermann.com), and I work with illustrators and editors at [Midnight Breakfast](http://midnightbreakfast.com/). Previously, I taught design at [General Assembly](http://generalassemb.ly/) in New York. Some of my previous work can be seen at [Cantilever](http://cantilever.co/work/).
 
