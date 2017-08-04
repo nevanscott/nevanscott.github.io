@@ -345,6 +345,7 @@ header[role=banner] {
     color: inherit;
     font-size: var(--font-size);
     font-weight: normal;
+    margin-right: var(--type-space-dash);
   }
   nav {
     font-size: var(--font-size);
@@ -353,7 +354,7 @@ header[role=banner] {
     a {
       color: var(--header-text-muted-color);
       font-family: var(--font-family);
-      margin-right: var(--type-space-pinch);
+      margin-right: var(--type-space-dash);
       &:last-child {
         margin-right: 0;
       }
