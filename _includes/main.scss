@@ -326,6 +326,9 @@ a {
     color: var(--text-muted-color);
 	}
 }
+sub, sup {
+  line-height: 0;
+}
 
 header[role=banner] {
   background: var(--header-background);
@@ -414,6 +417,9 @@ footer[role=contentinfo] {
   margin: 0 1px;
   padding: 1px 1em;
   text-align: center;
+  &:hover {
+    box-shadow: unset;
+  }
 }
 
 .reversefootnote {
