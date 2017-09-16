@@ -1,3 +1,5 @@
+$serif: Chronicle, Georgia, serif;
+$sans: Whitney, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Avenir, Noto, sans-serif;
 $ssm: "all and (min-width: 35em)";
 $ssl: "all and (min-width: 45em)";
 
@@ -63,12 +65,14 @@ $ssl: "all and (min-width: 45em)";
 
 // Type
 :root {
-  --font-family: "chaparral-pro-1", "chaparral-pro-2", "Chaparral Pro", Georgia, serif;
-  --font-family-decorative: var(--font-family);
-  --font-family-display: var(--font-family);
-  --font-family-caption: var(--font-family);
+  --font-family: #{$serif};
+  --font-family-sans: #{$sans};  
+  --font-family-decorative: var(--font-family-sans);
+  --font-family-display: var(--font-family-sans);
+  --font-family-caption: var(--font-family-sans);
+  --font-family-interface: var(--font-family-sans);
   --font-family-text: var(--font-family);
-  --font-size: 18px;
+  --font-size: 16px;
   --font-size-base: var(--font-size);
   --font-size-text: var(--font-size);
   --font-size-title: calc(1.25 * var(--font-size));
@@ -80,7 +84,7 @@ $ssl: "all and (min-width: 45em)";
   --line-height: 1.3;
   --line-height-base: calc(var(--font-size) * var(--line-height));
   --line-height-heading: 1.2;
-  --reading-measure: calc(30 * var(--font-size-base));
+  --reading-measure: calc(35 * var(--font-size-base));
   --type-space-fifth: calc(0.2 * var(--line-height-base));
   --type-space-half: calc(0.5 * var(--line-height-base));
   --type-space-single: calc(1 * var(--line-height-base));
@@ -92,7 +96,7 @@ $ssl: "all and (min-width: 45em)";
 }
 @media #{$ssm} {
   :root {
-    --font-size: 20px;
+    --font-size: 18px;
     --font-size-title: calc(2 * var(--font-size));
     --line-height: 1.4;
     --line-height-heading: 1.3;
@@ -104,7 +108,7 @@ $ssl: "all and (min-width: 45em)";
 }
 @media #{$ssl} {
   :root {
-    --font-size: 24px;
+    --font-size: 20px;
     --line-height: 1.45;
   }
 }
@@ -188,7 +192,7 @@ p {
 	  color: var(--text-display-color);
 	  font-family: var(--font-family-display);
 	  font-size: var(--font-size-heading);
-	  font-style: italic;
+	  font-weight: bold;
 	  line-height: var(--line-height-heading);
 	  --link-stroke-width: var(--link-stroke-width-heading);
 	}
@@ -239,6 +243,8 @@ img {
 time {
   color: var(--text-muted-color);
   display: block;
+  font-family: var(--font-family-caption);
+  font-size: var(--font-size-caption);
   margin: 0 auto var(--type-space-single);
 }
 code {
@@ -250,7 +256,7 @@ ul {
   list-style: square;
 }
 dt {
-  font-family: var(--font-family-text);
+  font-family: var(--font-family-display);
   font-weight: bold;
   margin-top: var(--type-space-single);
 }
@@ -294,11 +300,6 @@ a {
 	  inset
       0
       calc(-1 * var(--link-stroke-width))
-      var(--page-color)
-    ,
-	  inset
-      0
-      calc(-2 * var(--link-stroke-width))
       var(--link-stroke-color)
     ;
 	color: inherit;
@@ -314,11 +315,6 @@ a {
       inset
         0
         calc(-1 * var(--link-stroke-width))
-        var(--page-color)
-      ,
-      inset
-        0
-        calc(-2 * var(--link-stroke-width))
         var(--link-stroke-color--hover)
       ;
 	}
@@ -335,6 +331,8 @@ header[role=banner] {
   background: var(--header-background);
   border-bottom: var(--header-stroke-style);
   color: var(--header-text-color);
+  font-family: var(--font-family-interface);
+  font-weight: bold;
   margin-bottom: var(--type-space-single);
   overflow: auto;
   display: flex;
@@ -343,8 +341,8 @@ header[role=banner] {
   flex-wrap: wrap;
   h1 {
     color: inherit;
+    font-family: inherit;
     font-size: var(--font-size);
-    font-weight: normal;
     margin-right: var(--type-space-dash);
   }
   nav {
@@ -353,7 +351,6 @@ header[role=banner] {
     flex-wrap: wrap;
     a {
       color: var(--header-text-muted-color);
-      font-family: var(--font-family);
       margin-right: var(--type-space-dash);
       &:last-child {
         margin-right: 0;
@@ -375,15 +372,14 @@ main[role=main] {
   margin-top: var(--type-space-double);
   h1 {
     font-size: var(--font-size-title);
-    font-weight: normal;
-    font-style: italic;
+    font-weight: bold;
   }
 }
 
 footer[role=contentinfo] {
   border-top: 1px solid var(--hair-stroke-color);
-  font-family: var(--font-family);
-  font-size: var(--font-size);
+  font-family: var(--font-family-interface);
+  font-size: var(--font-size-caption);
   margin-top: var(--type-space-double);
   padding-top: var(--type-space-dash);
 	nav {
