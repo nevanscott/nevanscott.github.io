@@ -5,10 +5,8 @@ title: Reading
 Currently Reading
 -----------------
 
-* [<cite>Between the World and Me</cite> by Ta-Nehisi Coates](https://www.goodreads.com/book/show/25489625-between-the-world-and-me)
-* [<cite>Bad Feminist</cite> by Roxane Gay](https://www.goodreads.com/book/show/18813642-bad-feminist)
-* [<cite>Paper: Paging Through History</cite> by Mark Kurlansky](https://www.goodreads.com/book/show/32191697-paper)
-* [<cite>Service Design: From Insight to Implementation</cite> by Andy Polaine, Lavrans Løvlie, Ben Reason](http://rosenfeldmedia.com/books/service-design/)
+* [<cite>Gorgias</cite> by Plato](https://www.hackettpublishing.com/gorgias)
+* [<cite>Toward an Intellectual History of Black Women</cite> edited by Mia E. Bay, Farah J. Griffin, Martha S. Jones, Barbara D. Savage](https://www.uncpress.org/book/9781469620916/toward-an-intellectual-history-of-black-women/?title_id=3635)
 
 
 Books for Designers
