@@ -3,9 +3,9 @@
 
 <p class="lede" markdown="1">Hi there! I'm a [designer](/portfolio/), [teacher](/teaching/), and [writer](/writing/) living in Berlin.</p>
 
-I recently joined [Edenspiekermann](https://www.edenspiekermann.com), and I work with illustrators and editors at [Midnight Breakfast](http://midnightbreakfast.com/). Previously, I taught design at [General Assembly](http://generalassemb.ly/) in New York. Some of my previous work can be seen at [Cantilever](http://cantilever.co/work/).
-
-You can also find me at <a href="http://notated.org">notated.org</a> on Twitter as <a href="https://twitter.com/nevan" rel="me">@nevan</a>.
+* I build websites at [Edenspiekermann](https://www.edenspiekermann.com) and publish [Midnight Breakfast](http://midnightbreakfast.com/).
+* In June, [I'll be teaching](/teaching/) user experience and user interface design in Barcelona. Stay tuned.
+* You can also find me at <a href="http://notated.org">notated.org</a> on Twitter as <a href="https://twitter.com/nevan" rel="me">@nevan</a>.
 
 
 Teaching
@@ -32,4 +32,4 @@ I've been working closely with [Rebecca Rubenstein](http://rebeccarubenstein.com
 Design & Development
 --------------------
 
-I like to make websites, and have spent most of my career doing so. I learned to make websites as a hobby, and in college I found myself a position making websites for professors. I started out working for [an agency in L.A.](/la/), then moved to New York, where I have worked on projects [as a freelancer](/freelance/) and for the past several years as a partner [at Cantilever](/cantilever/).
+I like to make websites, and have spent most of my career doing so. I learned to make websites as a hobby, and in college I found myself a position making websites for professors. I started out working for [an agency in L.A.](/la/), then moved to New York, where I have worked on projects [as a freelancer](/freelance/) and as a partner [at Cantilever](/cantilever/). Eventually I made my way to Berlin, making websites with [Edenspiekermann](https://www.edenspiekermann.com).
