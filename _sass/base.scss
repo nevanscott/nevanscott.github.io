@@ -48,23 +48,29 @@ h1, h2, h3 {
 h1 {
 	font-size: var(--font-size-heading);
   --link-stroke-width: var(--link-stroke-width-heading);
+  &.page-title {
+    font-family: var(--font-family-decorative);
+    font-weight: normal;
+  }
 }
 h2 {
+  font-family: var(--font-family-decorative);
 	font-size: var(--font-size-subhead);
-	font-weight: bold;
-	letter-spacing: .1em;
+  font-weight: normal;
 	margin: var(--type-space-500) 0 var(--type-space-400);
-	text-transform: uppercase;
 }
 p {
 	margin: 0 auto var(--type-space-400);
 	&.lede {
 	  color: var(--text-display-color);
-	  font-family: var(--font-family-display);
+	  font-family: var(--font-family-decorative);
 	  font-size: var(--font-size-title);
-	  font-weight: bold;
-	  line-height: var(--line-height-heading);
+    font-style: normal;
+	  font-weight: normal;
 	  --link-stroke-width: var(--link-stroke-width-heading);
+    margin-bottom: var(--type-space-tad);
+    max-width: calc(var(--reading-measure) * var(--interval) * var(--interval));
+    text-align: center;
 	}
 }
 img {

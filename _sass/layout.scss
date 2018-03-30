@@ -6,7 +6,7 @@ header[role=banner] {
   border-bottom: var(--header-stroke-style);
   color: var(--header-text-color);
   font-family: var(--font-family-interface);
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: var(--type-space-400);
   padding-top: var(--type-space-300);
   padding-bottom: var(--type-space-300);
@@ -18,8 +18,8 @@ header[role=banner] {
   align-items: baseline;
   h1 {
     color: inherit;
-    font-family: inherit;
     font-size: var(--font-size);
+    font-weight: inherit;
     margin: 0 var(--type-space-dash) 0 0;
   }
   nav {
@@ -50,7 +50,6 @@ main[role=main] {
   margin-top: var(--type-space-500);
   h1 {
     font-size: var(--font-size-title);
-    font-weight: bold;
   }
 }
 

@@ -5,7 +5,7 @@
 {% include header.html %}
 <main role="main">
   {% if page.title %}
-  <h1>{{ page.title | markdownify | strip_html }}</h1>
+  <h1 class="page-title">{{ page.title | markdownify | strip_html }}</h1>
   {% endif %}
   {{ content }}
 </main>
