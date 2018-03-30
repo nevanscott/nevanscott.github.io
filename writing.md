@@ -1,4 +1,5 @@
 ---
+title: Writing
 ---
 
 {% for post in site.posts %}
