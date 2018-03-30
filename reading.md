@@ -5,13 +5,8 @@ title: Reading
 Currently Reading
 -----------------
 
-* [<cite>Gorgias</cite> by Plato](https://www.hackettpublishing.com/gorgias)
+* [<cite>Theaetetus</cite> by Plato, translated by M. J. Levett, revision by Myles Burnyeat](https://www.hackettpublishing.com/theaetetus)
 * [<cite>Toward an Intellectual History of Black Women</cite> edited by Mia E. Bay, Farah J. Griffin, Martha S. Jones, Barbara D. Savage](https://www.uncpress.org/book/9781469620916/toward-an-intellectual-history-of-black-women/?title_id=3635)
-* [<cite>Life in Code</cite> y Ellen Ullman](https://www.goodreads.com/book/show/31450584-life-in-code)
-* [<cite>Little Soldiers</cite> by Lenora Chu](http://lenorachu.com/book/)
-* [<cite>Come as You Are</cite> by Emily Nagoski](https://www.goodreads.com/book/show/22609341-come-as-you-are)
-* [<cite>The Dawning Moon of the Mind</cite> by Susan Brind Morrow](https://www.goodreads.com/book/show/23847908-the-dawning-moon-of-the-mind)
-* [<cite>At the Existentialist Café</cite> by Sarah Bakewell](https://www.goodreads.com/book/show/25658482-at-the-existentialist-caf)
 * [<cite>Stamped from the Beginning</cite> by Ibram X. Kendi](https://www.goodreads.com/book/show/25898216-stamped-from-the-beginning)
 * [<cite>The Odyssey</cite> by Homer, translated by Emily Wilson](http://books.wwnorton.com/books/978-0-393-08905-9/)
 
@@ -49,4 +44,3 @@ Web Books[^webbooks]
 
 
 [^webbooks]: I'm hesitant to even separate these out, as I generally prefer to think about the term "book" very holistically. However, these are available as free resources, and all have slightly different models for how their authors intend to sustain them. There is nothing quotidian [about publishing a book in this way](/webbooks/), so for now I believe the distinction is worthy of note.
-
