@@ -1,14 +1,14 @@
 figure {
-  margin: 0 0 var(--type-space-single);
+  margin: 0 0 var(--type-space-400);
   padding: 0;
   figcaption {
     font-family: var(--font-family-caption);
     font-size: smaller;
-    margin-bottom: var(--type-space-double);
-    margin-top: var(--type-space-half);
+    margin-bottom: var(--type-space-500);
+    margin-top: var(--type-space-300);
     h2 {
-      margin-top: var(--type-space-half);
-      margin-bottom: var(--type-space-half);
+      margin-top: var(--type-space-300);
+      margin-bottom: var(--type-space-300);
     }
   }
 }
@@ -24,7 +24,7 @@ figure.screenshot {
     }
   }
   @media #{$ssl} {
-    padding-bottom: var(--type-space-single);
+    padding-bottom: var(--type-space-400);
     overflow: auto;
     .browser {
       float: left;
@@ -34,7 +34,7 @@ figure.screenshot {
       box-sizing: border-box;
       float: right;
       margin-bottom: 0;
-      margin-top: var(--type-space-single);
+      margin-top: var(--type-space-400);
       width: 37%;
     }
   }

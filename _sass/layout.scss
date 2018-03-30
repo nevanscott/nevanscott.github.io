@@ -7,9 +7,9 @@ header[role=banner] {
   color: var(--header-text-color);
   font-family: var(--font-family-interface);
   font-weight: bold;
-  margin-bottom: var(--type-space-single);
-  padding-top: var(--type-space-half);
-  padding-bottom: var(--type-space-half);
+  margin-bottom: var(--type-space-400);
+  padding-top: var(--type-space-300);
+  padding-bottom: var(--type-space-300);
   overflow: auto;
   display: flex;
   flex-direction: row;
@@ -47,7 +47,7 @@ header[role=banner] {
 }
 
 main[role=main] {
-  margin-top: var(--type-space-double);
+  margin-top: var(--type-space-500);
   h1 {
     font-size: var(--font-size-title);
     font-weight: bold;
@@ -58,7 +58,7 @@ footer[role=contentinfo] {
   border-top: 1px solid var(--hair-stroke-color);
   font-family: var(--font-family-interface);
   font-size: var(--font-size-caption);
-  margin-top: var(--type-space-double);
+  margin-top: var(--type-space-500);
   padding-top: var(--type-space-dash);
 	nav {
 	  display: inline;

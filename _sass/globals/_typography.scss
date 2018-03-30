@@ -31,7 +31,8 @@
   --line-height-heading: 1.2;
   --reading-measure: calc(35 * var(--font-size-base));
   --type-space: var(--line-height-base);
-  --type-space-interval: 2;
+  --type-space-ratio: calc(7/8);
+  --type-space-interval: calc(2 * var(--type-space-ratio));
   --type-space-100: calc(var(--type-space-200) / var(--type-space-interval));
   --type-space-200: calc(var(--type-space-300) / var(--type-space-interval));
   --type-space-300: calc(var(--type-space-400) / var(--type-space-interval));
@@ -41,10 +42,6 @@
   --type-space-700: calc(var(--type-space-interval) * var(--type-space-600));
   --type-space-800: calc(var(--type-space-interval) * var(--type-space-700));
   --type-space-900: calc(var(--type-space-interval) * var(--type-space-800));
-  --type-space-fifth: calc(0.2 * var(--line-height-base));
-  --type-space-half: calc(0.5 * var(--line-height-base));
-  --type-space-single: calc(1 * var(--line-height-base));
-  --type-space-double: calc(2 * var(--line-height-base));
   --type-space-tad: var(--type-space-400);
   --type-space-dash: var(--type-space-300);
   --type-space-pinch: var(--type-space-200);

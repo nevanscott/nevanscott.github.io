@@ -32,7 +32,7 @@ main >, section >, article > {
 	}
 }
 article {
-  margin-bottom: var(--type-space-double);
+  margin-bottom: var(--type-space-500);
 }
 
 hr {
@@ -53,11 +53,11 @@ h2 {
 	font-size: var(--font-size-subhead);
 	font-weight: bold;
 	letter-spacing: .1em;
-	margin: var(--type-space-double) 0 var(--type-space-single);
+	margin: var(--type-space-500) 0 var(--type-space-400);
 	text-transform: uppercase;
 }
 p {
-	margin: 0 auto var(--type-space-single);
+	margin: 0 auto var(--type-space-400);
 	&.lede {
 	  color: var(--text-display-color);
 	  font-family: var(--font-family-display);
@@ -75,12 +75,12 @@ time {
   display: block;
   font-family: var(--font-family-caption);
   font-size: var(--font-size-caption);
-  margin: 0 auto var(--type-space-single);
+  margin: 0 auto var(--type-space-400);
 }
 code {
   background: var(--highlight-color);
   border-radius: .25em;
-  padding: 0 var(--type-space-fifth);
+  padding: 0 var(--type-space-200);
 }
 ul {
   list-style: square;
@@ -88,10 +88,10 @@ ul {
 dt {
   font-family: var(--font-family-display);
   font-weight: bold;
-  margin-top: var(--type-space-single);
+  margin-top: var(--type-space-400);
 }
 dd {
-  margin: var(--type-space-half) 0 var(--type-space-single);
+  margin: var(--type-space-300) 0 var(--type-space-400);
   padding: 0;
 }
 blockquote {
@@ -100,8 +100,8 @@ blockquote {
   font-size: smaller;
   margin-left: 0;
   margin-right: 0;
-  padding-left: var(--type-space-double);
-  padding-right: var(--type-space-double);
+  padding-left: var(--type-space-500);
+  padding-right: var(--type-space-500);
   &:before {
     color: var(--brand-text-color);
     content: '“';
@@ -116,9 +116,9 @@ blockquote {
   blockquote {
     border-left: 1px solid var(--brand-stroke-color);
     font-size: 1em;
-    margin-left: var(--type-space-single);
-    margin-right: var(--type-space-single);
-    padding-left: var(--type-space-single);
+    margin-left: var(--type-space-400);
+    margin-right: var(--type-space-400);
+    padding-left: var(--type-space-400);
     padding-right: 0;
     &:before {
       display: none;
