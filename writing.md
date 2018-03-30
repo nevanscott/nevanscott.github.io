@@ -2,6 +2,5 @@
 ---
 
 {% for post in site.posts %}
-{% include post/brief.html %}
-{% unless forloop.last %}<hr>{% endunless %}
+{% include post/teaser.html %}
 {% endfor %}
