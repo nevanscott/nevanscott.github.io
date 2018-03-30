@@ -97,11 +97,11 @@ dd {
 blockquote {
   box-sizing: border-box;
   font-family: var(--font-family-text);
-  font-size: smaller;
+  font-size: var(--font-size-scale-300);
   margin-left: 0;
   margin-right: 0;
-  padding-left: var(--type-space-500);
-  padding-right: var(--type-space-500);
+  padding-left: var(--type-space-400);
+  padding-right: var(--type-space-400);
   &:before {
     color: var(--brand-text-color);
     content: '“';
@@ -115,7 +115,6 @@ blockquote {
   }
   blockquote {
     border-left: 1px solid var(--brand-stroke-color);
-    font-size: 1em;
     margin-left: var(--type-space-400);
     margin-right: var(--type-space-400);
     padding-left: var(--type-space-400);
