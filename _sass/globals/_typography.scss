@@ -25,19 +25,30 @@
   --font-size-subhead: var(--font-size-scale-300);
   --font-size-caption: var(--font-size-scale-300);
   --font-size-micro: var(--font-size-scale-200);
-  --interval: 1.125;
+  --interval: calc(9/8);
   --line-height: 1.4;
   --line-height-base: calc(var(--font-size) * var(--line-height));
   --line-height-heading: 1.2;
   --reading-measure: calc(35 * var(--font-size-base));
+  --type-space: var(--line-height-base);
+  --type-space-interval: 2;
+  --type-space-100: calc(var(--type-space-200) / var(--type-space-interval));
+  --type-space-200: calc(var(--type-space-300) / var(--type-space-interval));
+  --type-space-300: calc(var(--type-space-400) / var(--type-space-interval));
+  --type-space-400: var(--type-space);
+  --type-space-500: calc(var(--type-space-interval) * var(--type-space-400));
+  --type-space-600: calc(var(--type-space-interval) * var(--type-space-500));
+  --type-space-700: calc(var(--type-space-interval) * var(--type-space-600));
+  --type-space-800: calc(var(--type-space-interval) * var(--type-space-700));
+  --type-space-900: calc(var(--type-space-interval) * var(--type-space-800));
   --type-space-fifth: calc(0.2 * var(--line-height-base));
   --type-space-half: calc(0.5 * var(--line-height-base));
   --type-space-single: calc(1 * var(--line-height-base));
   --type-space-double: calc(2 * var(--line-height-base));
-  --type-space-tad: calc(1 * var(--line-height-base));
-  --type-space-dash: calc(0.5 * var(--line-height-base));
-  --type-space-pinch: calc(0.25 * var(--line-height-base));
-  --type-space-smidgen: calc(0.125 * var(--line-height-base));
+  --type-space-tad: var(--type-space-400);
+  --type-space-dash: var(--type-space-300);
+  --type-space-pinch: var(--type-space-200);
+  --type-space-smidgen: var(--type-space-100);
 }
 @media #{$ssm} {
   :root {
@@ -45,10 +56,10 @@
     --font-size-title: var(--font-size-scale-800);
     --line-height: 1.5;
     --line-height-heading: 1.3;
-    --type-space-tad: calc(2 * var(--line-height-base));
-    --type-space-dash: calc(1 * var(--line-height-base));
-    --type-space-pinch: calc(0.5 * var(--line-height-base));
-    --type-space-smidgen: calc(0.25 * var(--line-height-base));
+    --type-space-tad: var(--type-space-500);
+    --type-space-dash: var(--type-space-400);
+    --type-space-pinch: var(--type-space-300);
+    --type-space-smidgen: var(--type-space-200);
   }
 }
 @media #{$ssl} {
