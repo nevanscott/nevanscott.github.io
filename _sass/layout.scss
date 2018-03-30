@@ -8,16 +8,19 @@ header[role=banner] {
   font-family: var(--font-family-interface);
   font-weight: bold;
   margin-bottom: var(--type-space-single);
+  padding-top: var(--type-space-half);
+  padding-bottom: var(--type-space-half);
   overflow: auto;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
   h1 {
     color: inherit;
     font-family: inherit;
     font-size: var(--font-size);
-    margin-right: var(--type-space-dash);
+    margin: 0 var(--type-space-dash) 0 0;
   }
   nav {
     font-size: var(--font-size-caption);
@@ -66,4 +69,3 @@ footer[role=contentinfo] {
 	  }
 	}
 }
-
