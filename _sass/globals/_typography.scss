@@ -1,7 +1,8 @@
 :root {
   --font-family: #{$serif};
   --font-family-sans: #{$sans};
-  --font-family-decorative: var(--font-family-sans);
+  --font-family-mono: #{$mono};
+  --font-family-decorative: #{$mono};
   --font-family-display: var(--font-family-sans);
   --font-family-caption: var(--font-family-sans);
   --font-family-interface: var(--font-family-sans);
