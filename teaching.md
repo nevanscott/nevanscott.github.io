@@ -2,13 +2,13 @@
 title: Teaching
 ---
 
-Upcoming
---------
+Upcoming Class
+--------------
 
 * [User Experience and User Interface Design Bootcamp](http://www.ironhack.com/en/courses/ux-ui-design-bootcamp-learn-ux-design), Ironhack Barcelona <small>June 11, 2018</small>
 
-Previous
---------
+Previously
+----------
 
 [User Experience Design Immersive](https://generalassemb.ly/education/user-experience-design-immersive) (UXDI)
 : I co-taught and developed curriculum for General Assembly's bootcamp-style UX course, one class at a time. In this setting, my own work was in designing projects, facilitating classes and workshop time, and mentoring students through their work. I'm tempted to say my real pride is in the work that students have accomplished while they've been in my classes, but I take much more pride when students achieve their goals in their careers and lives after the course, and when they help bring new things into the world.
