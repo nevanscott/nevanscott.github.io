@@ -2,7 +2,7 @@
 title: General Assembly
 ---
 
-At GA, I started out teaching a 10-week part-time course on [front-end web development](https://generalassemb.ly/education/front-end-web-development) whose curriculum I subsequently helped [overhaul](#fewd-overhaul) As I continued to run the class, I built up an accompanying course website over time, starting out with something very [rudimentary](http://nevanscott.com/fewd13/), then [rolling](http://nevanscott.com/fewd19/), [rolling](http://nevanscott.com/fewd29/), [rolling](http://fewd49.nevan.org). Now I teach an immersive course in user experience design, which has been as demanding as it has been rewarding.
+At GA, I started out teaching a 10-week part-time course on [front-end web development](https://generalassemb.ly/education/front-end-web-development) whose curriculum I subsequently helped [overhaul](#fewd-overhaul). As I continued to run the class, I built up an accompanying course website over time, starting out with something very [rudimentary](http://nevanscott.com/fewd13/), then [rolling](http://nevanscott.com/fewd19/), [rolling](http://nevanscott.com/fewd29/), [rolling](http://fewd49.nevan.org). Now I teach an immersive course in user experience design, which has been as demanding as it has been rewarding.
 
 
 FEWD Overhaul
