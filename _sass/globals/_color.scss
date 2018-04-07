@@ -24,6 +24,12 @@ $secondary-hue-900: ($secondary-hue + 4 * $hue-spread);
 :root, [data-lightingmode=day], [data-lightingmode=dawn] {
   --brand-stroke-color: #{ hsl($accent-hue-400,90,50) };
   --brand-text-color: #{ hsl($accent-hue-400,93,48) };
+  --button-color: #{ hsl($accent-hue-200,95,45) };
+  --button-color--hover: #{ hsl($accent-hue-200,95,40) };
+  --button-text-color: white;
+  --button-text-color--hover: white;
+  --button-border-color: var(--button-color--hover);
+  --button-border-radius: 4px;
   --figure-drop-color: var(--highlight-color);
   --figure-stroke-color: #{ rgba(0,0,0,.2) };
   --hair-stroke-color: #{ rgba(0,0,0,.15) };
@@ -42,6 +48,8 @@ $secondary-hue-900: ($secondary-hue + 4 * $hue-spread);
 }
 [data-lightingmode=night], [data-lightingmode=dusk] {
   --brand-stroke-color: #{ hsl($accent-hue-400,90,30) };
+  --button-color: #{ hsl($accent-hue-300,90,35) };
+  --button-color--hover: #{ hsl($accent-hue-200,90,25) };
   --figure-drop-color: var(--highlight-color);
   --figure-stroke-color: var(--hair-stroke-color);
   --hair-stroke-color: #{ rgba(255,255,255,.2) };
@@ -60,6 +68,8 @@ $secondary-hue-900: ($secondary-hue + 4 * $hue-spread);
 }
 [data-lightingmode=dusk] {
   --brand-stroke-color: #{ hsl($accent-hue-500,95,45) };
+  --button-color: #{ hsl($accent-hue-300,95,40) };
+  --button-color--hover: #{ hsl($accent-hue-200,95,30) };
   --link-stroke-color: #{ hsl($accent-hue-500,90,45) };
   --link-stroke-color--hover: #{ hsl($accent-hue-350,95,50) };
   --page-color: #{ hsl($secondary-hue-500,30,12) };

@@ -1,0 +1,30 @@
+.codepen {
+  font-family: var(--font-family-caption);
+  font-size: var(--font-size-caption);
+  margin: var(--type-space-500) var(--type-space-300);
+  text-align: center;
+
+  a {
+    background-color: var(--button-color);
+    border: var(--link-stroke-width) solid var(--button-border-color);
+    border-radius: var(--button-border-radius);
+    box-shadow: none;
+    color: var(--button-text-color);
+    display: inline-block;
+    padding: var(--type-space-300) var(--type-space-400);
+    text-shadow: none;
+    transition: background-color 250ms, color 250ms;
+
+    &:hover {
+      background-color: var(--button-color--hover);
+      color: var(--button-text-color--hover);
+    }
+  }
+
+  .icon {
+    fill: currentColor;
+    height: 12px;
+    width: 12px;
+    margin-right: var(--type-space-200);
+  }
+}

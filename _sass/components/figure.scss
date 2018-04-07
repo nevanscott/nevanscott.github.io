@@ -19,7 +19,7 @@ figure.screenshot {
     box-shadow:
       var(--figure-drop-offset)
       var(--figure-drop-color);
-    img {
+    img, iframe {
       display: block;
     }
   }
