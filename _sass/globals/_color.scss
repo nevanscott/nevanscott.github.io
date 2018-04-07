@@ -67,7 +67,7 @@ $secondary-hue-900: ($secondary-hue + 4 * $hue-spread);
   --thin-stroke-color: #{ rgba(255,255,255,.25) };
 }
 [data-lightingmode=dusk] {
-  --brand-stroke-color: #{ hsl($accent-hue-350,95,45) };
+  --brand-stroke-color: #{ hsl($accent-hue-500,95,45) };
   --button-color: #{ hsl($accent-hue-300,95,40) };
   --button-color--hover: #{ hsl($accent-hue-200,95,30) };
   --link-stroke-color: #{ hsl($accent-hue-500,90,45) };
