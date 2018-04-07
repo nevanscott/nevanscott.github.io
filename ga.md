@@ -57,7 +57,7 @@ I developed several exercises and [projects](#fewd-projects) that I'm particular
 
 <figure class="screenshot">
   <div class="browser">
-    {% include codepen.html slug="uBkEr" title="Cash Register" %}
+    {% include codepen.html slug="uBkEr" title="Cash Register" preview="true" %}
   </div>
   <figcaption markdown="1">
   [Cash Register](http://codepen.io/nevan/pen/uBkEr) is a great challenge project for students who are ready to stretch their JS skills a bit.
