@@ -40,7 +40,7 @@ $secondary-hue-900: ($secondary-hue + 4 * $hue-spread);
   --highlight-color: #{ rgba(0,0,0,.1) };
   --link-stroke-color: #{ hsl($accent-hue-400,95,50) };
   --link-stroke-color--hover: #{ hsl($accent-hue-300,95,45) };
-  --page-color: #{ hsl($secondary-hue-500,15,85) };
+  --page-color: #{ hsl($secondary-hue-500,50,95) };
   --text-color: #{ rgba(0,0,0,.8) };
   --text-display-color: black;
   --text-muted-color: #{ rgba(0,0,0,.4) };
