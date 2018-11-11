@@ -23,15 +23,26 @@ header, main, section, footer {
 	padding-right: var(--type-space-dash);
 	position: relative;
 	z-index: 2;
+  @supports (display: grid) {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: var(--type-space-400);
+  }
 }
 main >, section >, article > {
   h1, h2, h3, h4, h5, h6, p, blockquote, ul, ol, dl, time, hr,  .footnotes {
     margin-left: auto;
     margin-right: auto;
     max-width: var(--reading-measure);
+    @supports (display: grid) {
+      grid-column: 3 / 7;
+      margin-left: 0;
+      margin-right: 0;
+    }
 	}
 }
 article {
+  display: contents;
   margin-bottom: var(--type-space-500);
 }
 
@@ -70,7 +81,7 @@ p {
 	  --link-stroke-width: var(--link-stroke-width-heading);
     margin-bottom: var(--type-space-tad);
     max-width: calc(var(--reading-measure) * var(--interval) * var(--interval));
-    text-align: center;
+    grid-column: 2 / 7;
 	}
 }
 img {

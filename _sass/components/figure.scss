@@ -26,6 +26,7 @@ figure.screenshot {
   @media #{$ssl} {
     padding-bottom: var(--type-space-400);
     overflow: auto;
+    grid-column: 1 / span 3;
     .browser {
       float: left;
       width: 60%;

@@ -1,3 +1,17 @@
+.teaser-list {
+  grid-column: 2 / span 6;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: var(--type-space-400);
+}
+
+.teaser {
+  display: block;
+  grid-column: auto / span 2;
+  font-size: var(--font-size-caption);
+  margin: 0;
+}
+
 .teaser__title {
   font-family: var(--font-family-display);
   font-size: var(--font-size-heading);
