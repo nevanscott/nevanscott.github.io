@@ -5,10 +5,10 @@ title: Reading
 Currently Reading
 -----------------
 
-* [<cite>Theaetetus</cite> by Plato, translated by M. J. Levett, revision by Myles Burnyeat](https://www.hackettpublishing.com/theaetetus)
-* [<cite>Toward an Intellectual History of Black Women</cite> edited by Mia E. Bay, Farah J. Griffin, Martha S. Jones, Barbara D. Savage](https://www.uncpress.org/book/9781469620916/toward-an-intellectual-history-of-black-women/?title_id=3635)
-* [<cite>Stamped from the Beginning</cite> by Ibram X. Kendi](https://www.goodreads.com/book/show/25898216-stamped-from-the-beginning)
-* [<cite>The Odyssey</cite> by Homer, translated by Emily Wilson](http://books.wwnorton.com/books/978-0-393-08905-9/)
+* [<cite>Design For How People Learn</cite> by Julie Dirksen, Second Edition](http://usablelearning.com/the-book/)
+* [<cite>Thick, and Other Essays</cite> by Tressie McMillan Cottom](https://www.thickthebook.com)
+* [<cite>Teaching to Transgress: Education as the Practice of Freedom</cite> by bell hooks](https://www.goodreads.com/book/show/27091.Teaching_to_Transgress)
+* [<cite>An Urgency of Teachers: the Work of Critical Digital Pedagogy</cite> by Sean Michael Morris and Jesse Stommel](https://urgencyofteachers.com)
 
 
 Books for Designers
