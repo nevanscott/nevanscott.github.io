@@ -3,7 +3,22 @@ title: Portfolio
 ---
 
 
-I've had the pleasure of bringing to life and evolving several web projects, most for work, some for pleasure. A partial list:
+I've had the pleasure of bringing to life and evolving dozens of design projects, most for work, some for pleasure. A partial list:
+
+[Learning Platform for UX/UI](http://0619.uxui.cat)
+: I design and manage this platform to provide design students with better access to resources to support their learning, a clear view into upcoming lessons and deadlines, etc. Unlike typical LMS solutions, this platform aims to  provide content to students to empower them, not to collect student data in order to empower or enrich institutions.
+
+<figure class="screenshot">
+  <div class="browser">
+    <img src="/img/uxui_m.png"
+      srcset="/img/uxui.png 1024w, /img/uxui_m.png 640w"
+      alt="UX/UI Screenshot">
+  </div>
+  <figcaption>
+    The platform works great when content is organized around <em>topics</em> within the course. Students can easily find information related to any topics discussed in class.
+  </figcaption>
+</figure>
+
 
 [Midnight Breakfast](http://midnightbreakfast.com)
 : Midnight Breakfast is one of my proudest accomplishments. In addition to designing the site, I've had an active role in art directing the site from day 1, which has afforded me the opportunity to work with incredible illustrators to bring more beauty into the world. It has been an incredible honor.
@@ -58,3 +73,5 @@ I've had the pleasure of bringing to life and evolving several web projects, mos
 *[UXDI]: User Experience Design Immersive
 *[FEWD]: Front-End Web Development
 *[UX]: User Experience
+*[UI]: User Interface
+*[LMS]: Learning Management System
