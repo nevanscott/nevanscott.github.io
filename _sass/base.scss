@@ -50,13 +50,13 @@ h1 {
   --link-stroke-width: var(--link-stroke-width-heading);
   &.page-title {
     font-family: var(--font-family-decorative);
-    font-weight: normal;
+    font-weight: 900;
   }
 }
 h2 {
   font-family: var(--font-family-decorative);
 	font-size: var(--font-size-subhead);
-  font-weight: normal;
+  font-weight: 700;
 	margin: var(--type-space-500) 0 var(--type-space-400);
 }
 p {
@@ -65,12 +65,13 @@ p {
 	  color: var(--text-display-color);
 	  font-family: var(--font-family-decorative);
 	  font-size: var(--font-size-title);
-    font-style: normal;
-	  font-weight: normal;
+    font-style: italic;
+	  font-weight: 700;
+    letter-spacing: -0.06em;
 	  --link-stroke-width: var(--link-stroke-width-heading);
     margin-bottom: var(--type-space-tad);
     max-width: calc(var(--reading-measure) * var(--interval) * var(--interval));
-    text-align: center;
+    text-align: left;
 	}
 }
 img {

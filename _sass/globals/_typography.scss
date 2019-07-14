@@ -63,6 +63,7 @@
 @media #{$ssl} {
   :root {
     --font-size: 20px;
+    --font-size-title: var(--font-size-scale-900);
     --line-height: 1.55;
   }
 }
