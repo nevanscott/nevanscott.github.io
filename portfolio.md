@@ -14,8 +14,15 @@ I've had the pleasure of bringing to life and evolving dozens of design projects
       srcset="/img/uxui.png 1024w, /img/uxui_m.png 640w"
       alt="UX/UI Screenshot">
   </div>
-  <figcaption>
-    The platform works great when content is organized around <em>topics</em> within the course. Students can easily find information related to any topics discussed in class.
+  <figcaption markdown="1">
+  The platform works great when content is organized around <em>topics</em> within the course. Students can easily find information related to any topics discussed in class.
+
+  <h4>Typefaces used</h4>
+
+  * [Source Serif Pro](https://adobe-fonts.github.io/source-serif-pro/)
+  * [IBM Plex Sans](https://github.com/IBM/plex)
+  * [Inter](https://rsms.me/inter/)
+  * [Cooper Hewitt](https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/)
   </figcaption>
 </figure>
 
@@ -29,8 +36,13 @@ I've had the pleasure of bringing to life and evolving dozens of design projects
       srcset="/img/mb.png 1024w, /img/mb_m.png 640w"
       alt="Midnight Breakfast Screenshot">
   </div>
-  <figcaption>
-    Each issue of Midnight Breakfast features beautiful new artwork and photography alongside each story, essay, and interview. The rest of the site is designed to get out of the way so that the reader can simply fall in.
+  <figcaption markdown="1">
+  Each issue of Midnight Breakfast features beautiful new artwork and photography alongside each story, essay, and interview. The rest of the site is designed to get out of the way so that the reader can simply fall in.
+
+  <h4>Typefaces used</h4>
+
+  * [Roslindale](https://djr.com/roslindale/)
+  * [Franklin Gothic FS](https://www.fontspring.com/fonts/fontsite/franklin-gothic-fs)
   </figcaption>
 </figure>
 
