@@ -1,7 +1,7 @@
 ---
 ---
 
-<p class="lede" markdown="1">Hi there! I'm a [designer](/portfolio/), [teacher](/teaching/), and [writer](/writing/) living in <del>New York</del> <del>Berlin</del> <ins>Barcelona</ins>.</p>
+<p class="lede" markdown="1">Hi there! I'm a [designer](/portfolio/) and [teacher](/teaching/), living in sunny Barcelona.</p>
 
 * I teach design at [Ironhack](http://www.ironhack.com) and publish [Midnight Breakfast](http://midnightbreakfast.com/).
 * You can also find me at <a href="http://notated.org">notated.org</a> on Twitter as <a href="https://twitter.com/nevan" rel="me">@nevan</a>.
