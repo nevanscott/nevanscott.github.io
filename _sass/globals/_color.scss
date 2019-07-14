@@ -40,14 +40,14 @@ $secondary-hue-900: ($secondary-hue + 4 * $hue-spread);
   --highlight-color: #{ rgba(0,0,0,.1) };
   --link-stroke-color: #{ hsl($accent-hue-400,95,50) };
   --link-stroke-color--hover: #{ hsl($accent-hue-300,95,45) };
-  --page-color: #{ hsl($secondary-hue-500,50,95) };
+  --page-color: #{ hsl($secondary-hue-500,25,96) };
   --text-color: #{ rgba(0,0,0,.8) };
   --text-display-color: black;
   --text-muted-color: #{ rgba(0,0,0,.4) };
   --thin-stroke-color: #{ rgba(0,0,0,.25) };
 }
 [data-lightingmode=night], [data-lightingmode=dusk] {
-  --brand-stroke-color: #{ hsl($accent-hue-400,90,30) };
+  --brand-stroke-color: #{ hsl($accent-hue-400,90,38) };
   --button-color: #{ hsl($accent-hue-300,90,35) };
   --button-color--hover: #{ hsl($accent-hue-200,90,25) };
   --figure-drop-color: var(--highlight-color);
@@ -60,14 +60,14 @@ $secondary-hue-900: ($secondary-hue + 4 * $hue-spread);
   --highlight-color: #{ rgba(255,255,255,.1) };
   --link-stroke-color: #{ hsl($accent-hue-400,85,40) };
   --link-stroke-color--hover: #{ hsl($accent-hue-300,90,45) };
-  --page-color: #{ hsl($secondary-hue-500,30,5) };
+  --page-color: #{ hsl($secondary-hue-500,50,7) };
   --text-color: #{ rgba(255,255,255,.7) };
   --text-display-color: #{ rgba(255,255,255,.8) };
   --text-muted-color: #{ rgba(255,255,255,.4) };
   --thin-stroke-color: #{ rgba(255,255,255,.25) };
 }
 [data-lightingmode=dusk] {
-  --brand-stroke-color: #{ hsl($accent-hue-500,95,45) };
+  --brand-stroke-color: #{ hsl($accent-hue-500,95,50) };
   --button-color: #{ hsl($accent-hue-300,95,40) };
   --button-color--hover: #{ hsl($accent-hue-200,95,30) };
   --link-stroke-color: #{ hsl($accent-hue-500,90,45) };
