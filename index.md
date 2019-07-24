@@ -6,7 +6,7 @@
 * I teach a [UX/UI design bootcamp](https://uxui.cat) in Barcelona.
 * I'm [writing about teaching](https://teaching.nevan.org) and open to feedback.
 * I occasionally help publish a new issue of [Midnight Breakfast](http://midnightbreakfast.com/).
-* You can also find me at <a href="http://notated.org">notated.org</a> on Twitter as <a href="https://twitter.com/nevan" rel="me">@nevan</a>.
+* You can also find me sharing links and writing at <a href="http://notated.org">notated.org</a>.
 
 
 Teaching
