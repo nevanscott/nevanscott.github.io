@@ -3,7 +3,9 @@
 
 <p class="lede" markdown="1">Hi there! I'm a [designer](/portfolio/) and [teacher](/teaching/), living in sunny Barcelona.</p>
 
-* I teach design at [Ironhack](http://www.ironhack.com) and publish [Midnight Breakfast](http://midnightbreakfast.com/).
+* I teach a [UX/UI design bootcamp](https://uxui.cat) in Barcelona.
+* I'm [writing about teaching](https://teaching.nevan.org) and open to feedback.
+* I occasionally help publish a new issue [Midnight Breakfast](http://midnightbreakfast.com/).
 * You can also find me at <a href="http://notated.org">notated.org</a> on Twitter as <a href="https://twitter.com/nevan" rel="me">@nevan</a>.
 
 
@@ -32,3 +34,7 @@ Design & Development
 --------------------
 
 I like to make websites, and have spent most of my career doing so. I learned to make websites as a hobby, and in college I found myself a position making websites for professors. I started out working for [an agency in L.A.](/la/), then moved to New York, where I have worked on projects [as a freelancer](/freelance/) and as a partner [at Cantilever](/cantilever/). Eventually I made my way to Berlin, making websites with [Edenspiekermann](https://www.edenspiekermann.com).
+
+
+*[UX]: User Experience
+*[UI]: User Interface
