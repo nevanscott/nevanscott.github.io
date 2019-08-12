@@ -1,9 +1,9 @@
 name: Nevan Scott
-description: 
+description:
 author:
   name: Nevan Scott
   email: nevan@nevanscott.com
-timezone: America/New_York
+timezone: Europe/Barcelona
 permalink: /:categories/:title/
 include: ['.htaccess']
 exclude: ['CNAME']
