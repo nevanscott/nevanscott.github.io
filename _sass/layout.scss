@@ -64,7 +64,8 @@ footer[role=contentinfo] {
   font-family: var(--font-family-interface);
   font-size: var(--font-size-caption);
   margin-top: var(--type-space-500);
-  padding-top: var(--type-space-dash);
+  padding-top: var(--type-space-300);
+  padding-bottom: var(--type-space-300);
 	nav {
 	  display: inline;
 	  a:before {
