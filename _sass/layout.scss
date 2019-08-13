@@ -1,5 +1,12 @@
 $sidebar-width: 11em;
 
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto 1fr auto;
+}
+
 header[role=banner] {
   background: var(--header-background);
   border-top: .25em solid var(--brand-stroke-color);
@@ -7,7 +14,6 @@ header[role=banner] {
   color: var(--header-text-color);
   font-family: var(--font-family-interface);
   font-weight: 600;
-  margin-bottom: var(--type-space-400);
   padding-top: var(--type-space-300);
   padding-bottom: var(--type-space-300);
   overflow: auto;
@@ -47,7 +53,7 @@ header[role=banner] {
 }
 
 main[role=main] {
-  margin-top: var(--type-space-500);
+  margin-top: var(--type-space-400);
   h1 {
     font-size: var(--font-size-title);
   }
