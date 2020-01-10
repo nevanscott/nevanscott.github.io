@@ -77,3 +77,26 @@ $secondary-hue-900: ($secondary-hue + 4 * $hue-spread);
   --text-display-color: white;
   --text-muted-color: #{ rgba(255,255,255,.6) };
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --brand-stroke-color: #{ hsl($accent-hue-400,90,38) };
+    --button-color: #{ hsl($accent-hue-300,90,35) };
+    --button-color--hover: #{ hsl($accent-hue-200,90,25) };
+    --figure-drop-color: var(--highlight-color);
+    --figure-stroke-color: var(--hair-stroke-color);
+    --hair-stroke-color: #{ rgba(255,255,255,.2) };
+    --header-background: none;
+    --header-stroke-style: #{ 2px solid var(--hair-stroke-color) };
+    --header-text-color: var(--text-display-color);
+    --header-text-muted-color: var(--text-muted-color);
+    --highlight-color: #{ rgba(255,255,255,.1) };
+    --link-stroke-color: #{ hsl($accent-hue-400,85,40) };
+    --link-stroke-color--hover: #{ hsl($accent-hue-300,90,45) };
+    --page-color: #{ hsl($secondary-hue-500,50,7) };
+    --text-color: #{ rgba(255,255,255,.7) };
+    --text-display-color: #{ rgba(255,255,255,.8) };
+    --text-muted-color: #{ rgba(255,255,255,.4) };
+    --thin-stroke-color: #{ rgba(255,255,255,.25) };
+  }
+}
