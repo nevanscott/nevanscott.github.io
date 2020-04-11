@@ -8,11 +8,10 @@
     background-color: var(--button-color);
     border: var(--link-stroke-width) solid var(--button-border-color);
     border-radius: var(--button-border-radius);
-    box-shadow: none;
     color: var(--button-text-color);
     display: inline-block;
     padding: var(--type-space-300) var(--type-space-400);
-    text-shadow: none;
+    text-decoration: none;
     transition: background-color 250ms, color 250ms;
 
     &:hover {

@@ -14,22 +14,19 @@
 
 .footnote {
   background: var(--highlight-color);
-  box-shadow: unset;
   border-radius: 2em;
   font-size: var(--font-size-micro);
   margin: 0 1px;
   padding: 1px 1em;
   text-align: center;
-  &:hover {
-    box-shadow: unset;
-  }
+  text-decoration: none;
 }
 
 .reversefootnote {
   background: none;
-  box-shadow: unset;
   color: var(--text-muted-color);
   font-size: var(--font-size-micro);
   margin: 0 1px;
   padding: 0;
+  text-decoration: none;
 }
