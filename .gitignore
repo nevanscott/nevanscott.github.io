@@ -1,4 +1,5 @@
 _site
+node_modules
 
 # Ignore hidden folders #
 # This takes care of .tmp, .sass-cache, and many others #
