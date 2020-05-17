@@ -2,7 +2,7 @@
   --font-family: #{$serif};
   --font-family-sans: #{$sans};
   --font-family-mono: #{$mono};
-  --font-family-decorative: #{$mono};
+  --font-family-decorative: var(--font-family-mono);
   --font-family-display: var(--font-family-sans);
   --font-family-caption: var(--font-family-sans);
   --font-family-interface: var(--font-family-sans);
@@ -22,8 +22,8 @@
   --font-size-text: var(--font-size);
   --font-size-title: var(--font-size-scale-500);
   --font-size-decorative: var(--font-size-scale-900);
-  --font-size-heading: var(--font-size-scale-500);
-  --font-size-subhead: var(--font-size-scale-400);
+  --font-size-heading: var(--font-size-scale-600);
+  --font-size-subhead: var(--font-size-scale-500);
   --font-size-caption: var(--font-size-scale-300);
   --font-size-micro: var(--font-size-scale-200);
   --interval: calc(9/8);

@@ -1,7 +1,7 @@
 ---
 ---
 
-<p class="lede" markdown="1">Hi there! I'm a [designer](/portfolio/) and [teacher](/teaching/), living in sunny Barcelona.</p>
+<p class="lede" markdown="1">Hi there! I'm a [designer](/portfolio/) and [teacher](/teaching/), living&nbsp;in&nbsp;sunny&nbsp;Barcelona.</p>
 
 * I teach a [UX/UI design bootcamp](https://uxui.cat) in Barcelona.
 * I'm [writing about teaching](https://teaching.nevan.org) and open to feedback.
