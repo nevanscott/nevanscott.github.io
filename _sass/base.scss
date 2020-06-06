@@ -132,8 +132,10 @@ a {
   color: inherit;
   text-underline-offset: var(--link-stroke-width);
   text-decoration-thickness: var(--link-stroke-width);
+  text-decoration-width: var(--link-stroke-width);
 	text-decoration-color: var(--link-stroke-color);
-	transition: text-decoration 250ms;
+	transition: all 250ms ease;
+  transition-property: text-decoration-color, text-decoration-thickness, text-decoration-width;
 	&:hover {
     text-decoration-color: var(--link-stroke-color--hover);
 	}
