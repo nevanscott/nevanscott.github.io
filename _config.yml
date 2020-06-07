@@ -1,12 +1,16 @@
+source: source
+
 name: Nevan Scott
 description:
 author:
   name: Nevan Scott
   email: nevan@nevanscott.com
+
 timezone: Europe/Madrid
 permalink: /:categories/:title/
 include: ['.htaccess']
 exclude: ['CNAME']
+
 markdown: kramdown
 highlighter: rouge
 
