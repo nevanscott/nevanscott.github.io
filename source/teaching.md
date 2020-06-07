@@ -2,18 +2,11 @@
 title: Teaching
 ---
 
-Current Class
---------------
+Currently
+---------
 
-* [User Experience and User Interface Design Bootcamp](https://uxui1018.nevan.org), Ironhack Barcelona <small>October 22, 2018</small>
-
-
-Recent Classes
---------------
-
-* [User Experience and User Interface Design Bootcamp](https://uxui0818.nevan.org), Ironhack Barcelona <small>August 20, 2018</small>
-* [User Experience and User Interface Design Bootcamp](http://www.ironhack.com/en/courses/ux-ui-design-bootcamp-learn-ux-design), Ironhack Barcelona <small>June 11, 2018</small>
-
+[User Experience and User Interface Design Bootcamp](https://uxui.cat), Ironhack Barcelona
+: Since 2018, I've taught a 9-week bootcamp course in user experience and interface design.
 
 
 Previously
