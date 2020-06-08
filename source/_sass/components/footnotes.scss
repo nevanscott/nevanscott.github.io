@@ -13,13 +13,14 @@
 }
 
 .footnote {
-  background: var(--highlight-color);
-  border-radius: 2em;
+  color: var(--brand-text-color);
   font-size: var(--font-size-micro);
   margin: 0 1px;
-  padding: 1px 1em;
-  text-align: center;
+  padding: 0 2px;
   text-decoration: none;
+  &:hover {
+    color: var(--link-stroke-color--hover);
+  }
 }
 
 .reversefootnote {

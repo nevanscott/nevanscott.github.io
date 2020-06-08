@@ -24,6 +24,7 @@ $secondary-hue-900: ($secondary-hue + 4 * $hue-spread);
 :root, [data-lightingmode=day], [data-lightingmode=dawn] {
   --brand-stroke-color: #{ hsl($accent-hue-400,90,50) };
   --brand-text-color: #{ hsl($accent-hue-400,93,48) };
+  --brand-text-color--hover: #{ hsl($accent-hue-300,93,43) };
   --button-color: #{ hsl($accent-hue-200,95,45) };
   --button-color--hover: #{ hsl($accent-hue-200,95,40) };
   --button-text-color: white;
