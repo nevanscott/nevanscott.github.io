@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Making Complicated Machines
+categories:
+  - featured
 teaser: |
   The alphabet of computer language is as simple as they come, with two figures: 1 and 0, known as bits, which typically correspond to high and low voltage electronic pulses. From such a simple base, however, complex functionality can be achieved.
 ---
@@ -29,7 +31,7 @@ In building the Eagle, the second principle, "smaller is faster," carried less w
 Compromises between what operations the hardware and software would handle also took place. However, decisions about how to make these compromises were not always geared toward making the Eagle a fast and efficient computer, and more toward ensuring the Eagle would actually *be* a computer:
 
 > One Hardy Boy \[working on the hardware\], Josh Rosen, looks around and can hardly believe what he sees. For example, Microkids \[working on the low-level software\] and Hardy Boys are arguing. A Microkid wants the hardware to perform a certain function. A Hardy Boy tells him, "No way - I already did my design for microcode to do that." They make a deal: "I'll encode this for you, if you'll do this other function in hardware." "All right."
-> 
+>
 > What a way to design a computer! "There's no grand design," thinks Rosen. "People are just reaching out in the dark, touching hands." Rosen is having some problems with his own piece of the design. He knows he can solve them, if he's just given the time. But the managers keep saying, "There's no time." Okay. Sure. It's a rush job. But this is ridiculous. No one seems to be in control; nothing's ever explained. Foul up, however, and the managers come at you from all sides.
 
 This way of working was even encouraged by the project's manager, Tom West, who kept the following written on his white board: "Not Everything Worth Doing Is Worth Doing Well." The limited time and resources available to the project compromised the overall quality of the design of the Eagle itself. There was, however, another human factor contributing to the inability to produce an 'ideal' design. West, a talented engineer himself, feeling the pressures of looming deadlines, decided at one point to try to examine flaws in the design to debug problems himself. After a few weekends of looking at the prototypes, West decided, "We're way beyond what any one person can do. It's too complex." The complexity of the design and workings of the Eagle had become great enough that a complete understanding of all the details, decisions, and compromises involved in its engineering was unattainable.

@@ -4,30 +4,32 @@
 <p class="lede" markdown="1">Hi there! I'm a [designer](/portfolio/) and [teacher](/teaching/), living&nbsp;in&nbsp;sunny&nbsp;Barcelona.</p>
 
 * I teach a [UX/UI design bootcamp](https://uxui.cat) in Barcelona.
-* I'm [writing about teaching](https://teaching.nevan.org) and open to feedback.
-* I occasionally help publish a new issue of [Midnight Breakfast](http://midnightbreakfast.com/).
-* You can also find me sharing links and writing at <a href="http://notated.org">notated.org</a>.
+* I occasionally help publish a new issue of [Midnight Breakfast](https://midnightbreakfast.com/).
+* I share links and write at [notated.org](http://notated.org).
 
 
 Teaching
 --------
 
-I've [always wanted to teach](/teaching/). Over the course of the past few years, I've been able to take on more teaching engagements, [at Noble Desktop](/noble/) and [at General Assembly](/ga/).
+I've [always wanted to teach](/teaching/). Over the course of the past few years, I've been able to take on more teaching engagements, [at Noble Desktop](/noble/) and [at General Assembly](/ga/) in New York, and now [at Ironhack](/ironhack/) in Barcelona.
 
-As part of my general tendency to overthink whatever I'm doing, I've been reading more blogs [about education](/education/) in recent years, which has been a real pleasure. Reading and practicing have allowed me to start forming some of my own thoughts about teaching.
 
 Writing
 -------
 
-Mostly embarrassing, enter at my own peril:
+Some personal favorites:
 
-{% for post in site.posts %}{% include post/short.html %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+<ul>
+{% for post in site.categories.featured %}
+  {% include post/list.html %}
+{% endfor %}
+</ul>
 
 
 Midnight Breakfast
 ------------------
 
-I've been working closely with [Rebecca Rubenstein](http://rebeccarubenstein.com) and [Taylor Pavlik](https://twitter.com/FTPavlik) for the past year to get [a literary magazine](/publishing/) off the ground, with the help of [Lauren O'Neal](https://twitter.com/laureneoneal), [Ashley Perez](https://twitter.com/artscollide), and a [ton of wonderful](/midnightbreakfast/) [writers and artists](http://midnightbreakfast.com/contributors).
+I publish this magazine along with [Rebecca Rubenstein](https://rebeccarubenstein.com), [Taylor Pavlik](httpss://twitter.com/FTPavlik), [Lauren O'Neal](https://twitter.com/laureneoneal), [Ashley Perez](https://twitter.com/artscollide), and a [ton of wonderful](/midnightbreakfast/) [writers and artists](https://midnightbreakfast.com/contributors).
 
 
 Design & Development

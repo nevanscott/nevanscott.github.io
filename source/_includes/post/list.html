@@ -1,0 +1,6 @@
+<li>
+  {% include post/short.html %}
+  <time class="dt-published" datetime="{{ post.date }}">
+    {{ post.date | date: "%-d %b %Y" }}
+  </time>
+</li>

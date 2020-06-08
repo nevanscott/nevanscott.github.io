@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Managing Change
+categories:
+  - featured
 teaser: |
   "Nevan, I've lived in a different world."
 ---
