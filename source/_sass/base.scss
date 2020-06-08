@@ -67,7 +67,6 @@ p {
 	  font-weight: 400;
 	  --link-stroke-width: var(--link-stroke-width-heading);
     margin-bottom: var(--type-space-tad);
-    max-width: calc(var(--reading-measure) * var(--interval) * var(--interval));
     text-align: left;
 	}
 }
