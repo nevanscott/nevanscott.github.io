@@ -7,7 +7,7 @@ author:
   email: nevan@nevanscott.com
 
 timezone: Europe/Madrid
-permalink: /:categories/:title/
+permalink: /:title/
 include: ['.htaccess']
 exclude: ['CNAME']
 
