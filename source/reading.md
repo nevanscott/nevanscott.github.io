@@ -10,6 +10,7 @@ Books for Designers
 * [<cite>What is a designer: things, places, messages</cite> by Norman Potter](https://hyphenpress.co.uk/products/books/978-0-907259-16-9)
 * [<cite>Critical Response Process</cite> by Liz Lerman](https://lizlerman.com/critical-response-process/)
 
+On [UX/UI](https://uxui.cat/), I maintain a more complete list of [book recommendations for UX designers](https://uxui.cat/resources/books/).
 
 Books for Teachers
 ------------------
