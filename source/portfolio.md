@@ -5,6 +5,25 @@ title: Portfolio
 
 I've had the pleasure of bringing to life and evolving dozens of design projects, most for work, some for pleasure. A partial list:
 
+[Timebox](https://timebox.cat)
+: Timebox is a straightforward tool for organizing and sharing sets of timers.
+
+<figure class="screenshot">
+  <div class="browser">
+    <img src="/img/timebox_m.png"
+      srcset="/img/timebox.png 1024w, /img/timebox_m.png 640w"
+      alt="Timebox Screenshot">
+  </div>
+  <figcaption markdown="1">
+  Multiple timers can be set up to automatically play in sequence, useful for multi-step timed activities.
+
+  <h4>Typefaces used</h4>
+
+  [System UI fonts](https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/)
+  </figcaption>
+</figure>
+
+
 [Learning Platform for UX/UI](http://0619.uxui.cat)
 : I design and manage this platform to provide design students with better access to resources to support their learning, a clear view into upcoming lessons and deadlines, etc. Unlike typical LMS solutions, this platform aims to  provide content to students to empower them, not to collect student data in order to empower or enrich institutions.
 
