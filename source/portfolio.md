@@ -5,6 +5,7 @@ title: Portfolio
 
 I've had the pleasure of bringing to life and evolving dozens of design projects, most for work, some for pleasure. A partial list:
 
+
 [Timebox](https://timebox.cat)
 : Timebox is a straightforward tool for organizing and sharing sets of timers.
 
@@ -80,9 +81,6 @@ I've had the pleasure of bringing to life and evolving dozens of design projects
   </figcaption>
 </figure>
 
-
-[Droga5](https://droga5.com)
-: I worked with Ty and Andrew at [Cantilever](http://cantilever.co/) to develop micro-interactions and build out this website for agency Droga5. The site is built with progressive layers to keep the site speedy while being responsive and strongly branded.
 
 [Elfie Raymond](http://elfieraymond.com)
 : In addition to being a good friend and teacher, Elfie took a chance on me early on to work on websites that she had created as part of her work in philosophy at Sarah Lawrence, including [The Language Exchange](http://v1.elfieraymond.com/ccorner/) and [Signs of Plenty: The Altar of Verdun](http://v1.elfieraymond.com/altar/), which I maintained. In 2008 and 2009 I worked on this redesign for her personal site with the goal of improving its overall readability from the original.
