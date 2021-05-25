@@ -1,81 +1,13 @@
-$prefix: '/fonts/literata/';
-
 @font-face {
-    font-family: 'Literata';
-    src:    url($prefix + 'Literata-Regular.eot');
-    src:    url($prefix + 'Literata-Regular.eot?#iefix') format('embedded-opentype'),
-            url($prefix + 'Literata-Regular.woff') format('woff'),
-            url($prefix + 'Literata-Regular.woff2') format('woff2');
-    font-weight: 400;
+    font-family: "Literata";
     font-style: normal;
+    font-weight: 100 900;
+    src: url(/fonts/literata/Literata-Var.woff2) format('woff2-variations');
 }
 
 @font-face {
-    font-family: 'Literata';
-    src:    url($prefix + 'Literata-Medium.eot');
-    src:    url($prefix + 'Literata-Medium.eot?#iefix') format('embedded-opentype'),
-            url($prefix + 'Literata-Medium.woff') format('woff'),
-            url($prefix + 'Literata-Medium.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Literata';
-    src:    url($prefix + 'Literata-SemiBold.eot');
-    src:    url($prefix + 'Literata-SemiBold.eot?#iefix') format('embedded-opentype'),
-            url($prefix + 'Literata-SemiBold.woff') format('woff'),
-            url($prefix + 'Literata-SemiBold.woff2') format('woff2');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Literata';
-    src:    url($prefix + 'Literata-Bold.eot');
-    src:    url($prefix + 'Literata-Bold.eot?#iefix') format('embedded-opentype'),
-            url($prefix + 'Literata-Bold.woff') format('woff'),
-            url($prefix + 'Literata-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Literata';
-    src:    url($prefix + 'Literata-Italic.eot');
-    src:    url($prefix + 'Literata-Italic.eot?#iefix') format('embedded-opentype'),
-            url($prefix + 'Literata-Italic.woff') format('woff'),
-            url($prefix + 'Literata-Italic.woff2') format('woff2');
-    font-weight: 400;
+    font-family: "Literata";
     font-style: italic;
-}
-
-@font-face {
-    font-family: 'Literata';
-    src:    url($prefix + 'Literata-Medium_Italic.eot');
-    src:    url($prefix + 'Literata-Medium_Italic.eot?#iefix') format('embedded-opentype'),
-            url($prefix + 'Literata-Medium_Italic.woff') format('woff'),
-            url($prefix + 'Literata-Medium_Italic.woff2') format('woff2');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Literata';
-    src:    url($prefix + 'Literata-SemiBold_Italic.eot');
-    src:    url($prefix + 'Literata-SemiBold_Italic.eot?#iefix') format('embedded-opentype'),
-            url($prefix + 'Literata-SemiBold_Italic.woff') format('woff'),
-            url($prefix + 'Literata-SemiBold_Italic.woff2') format('woff2');
-    font-weight: 600;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Literata';
-    src:    url($prefix + 'Literata-Bold_Italic.eot');
-    src:    url($prefix + 'Literata-Bold_Italic.eot?#iefix') format('embedded-opentype'),
-            url($prefix + 'Literata-Bold_Italic.woff') format('woff'),
-            url($prefix + 'Literata-Bold_Italic.woff2') format('woff2');
-    font-weight: 700;
-    font-style: italic;
+    font-weight: 100 900;
+    src: url(/fonts/literata/Literata-Var-Italic.woff2) format('woff2-variations');
 }
