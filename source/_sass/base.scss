@@ -48,26 +48,29 @@ h1 {
   --link-stroke-width: var(--link-stroke-width-heading);
   &.page-title {
     font-family: var(--font-family-display);
-    font-weight: 800;
+    font-weight: 700;
   }
 }
 h2 {
   font-family: var(--font-family-display);
 	font-size: var(--font-size-subhead);
-  font-weight: 700;
+  font-weight: 600;
 	margin: var(--type-space-500) 0 var(--type-space-400);
 }
 p {
 	margin: 0 auto var(--type-space-400);
 	&.lede {
+    border-bottom: solid 2px var(--hair-stroke-color);
 	  color: var(--text-display-color);
 	  font-family: var(--font-family-serif);
 	  font-size: var(--font-size-title);
     font-style: italic;
-	  font-weight: 400;
+	  font-weight: 550;
 	  --link-stroke-width: var(--link-stroke-width-heading);
     margin-bottom: var(--type-space-tad);
-    text-align: left;
+    max-width: none;
+    padding: var(--type-space-500) var(--type-space-600) var(--type-space-600);
+    text-align: center;
 	}
 }
 img {
@@ -90,9 +93,9 @@ ul {
   list-style: square;
 }
 dt {
-  font-family: var(--font-family-display);
-  font-weight: bold;
-  margin-top: var(--type-space-400);
+  font-family: var(--font-family-caption);
+  font-weight: 650;
+  margin-top: var(--type-space-500);
 }
 dd {
   margin: var(--type-space-300) 0 var(--type-space-400);
