@@ -2,9 +2,9 @@
   border-bottom: solid 2px var(--hair-stroke-color);
   color: var(--text-display-color);
   font-family: var(--font-family-serif);
-  font-size: var(--font-size-title);
-  font-style: italic;
-  font-weight: 550;
+  font-size: calc(var(--font-size-title) * 1.25);
+  font-style: normal;
+  font-weight: 350;
   line-height: var(--line-height-heading);
   --link-stroke-width: var(--link-stroke-width-heading);
   margin-bottom: var(--type-space-tad);

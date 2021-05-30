@@ -22,14 +22,12 @@ header[role=banner] {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
-  h1 {
+  [rel=me] {
     color: inherit;
-    font-size: var(--font-size);
     font-weight: inherit;
-    margin: 0 var(--type-space-dash) 0 0;
+    margin: 0 var(--type-space-500) 0 0;
   }
   nav {
-    font-size: var(--font-size-caption);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
