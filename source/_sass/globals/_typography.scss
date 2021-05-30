@@ -7,7 +7,7 @@
   --font-family-caption: var(--font-family-sans);
   --font-family-interface: var(--font-family-sans);
   --font-family-text: var(--font-family);
-  --font-size: 16px;
+  --font-size: 18px;
   --font-size-interval: var(--interval);
   --font-size-scale-100: calc(var(--font-size-scale-200) / var(--font-size-interval));
   --font-size-scale-200: calc(var(--font-size-scale-300) / var(--font-size-interval));
@@ -27,7 +27,7 @@
   --font-size-subhead: var(--font-size-scale-400);
   --font-size-caption: var(--font-size-scale-300);
   --font-size-micro: var(--font-size-scale-200);
-  --interval: calc(7/6);
+  --interval: calc(9/8);
   --line-height: 1.4;
   --line-height-base: calc(var(--font-size) * var(--line-height));
   --line-height-heading: 1.2;
@@ -51,10 +51,11 @@
 }
 @media #{$ssm} {
   :root {
-    --font-size: 18px;
+    --font-size: 20px;
     --font-size-title: var(--font-size-scale-800);
     --line-height: 1.5;
     --line-height-heading: 1.3;
+    --interval: calc(8/7);
     --type-space-tad: var(--type-space-500);
     --type-space-dash: var(--type-space-400);
     --type-space-pinch: var(--type-space-300);
@@ -63,7 +64,7 @@
 }
 @media #{$ssl} {
   :root {
-    --font-size: 20px;
+    --font-size: 22px;
     --font-size-title: var(--font-size-scale-900);
     --line-height: 1.55;
   }

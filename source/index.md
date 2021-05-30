@@ -7,7 +7,7 @@
   <strong>Hi there!</strong> I teach user&nbsp;experience and interaction&nbsp;design in&nbsp;Barcelona.
 </header>
 
-I'm learning how to say "design educator" without wincing.
+I'm learning how to say "design&nbsp;educator" without&nbsp;wincing.
 
 </section>
 
