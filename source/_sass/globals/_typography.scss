@@ -21,12 +21,13 @@
   --font-size-base: var(--font-size);
   --font-size-text: var(--font-size);
   --font-size-title: var(--font-size-scale-700);
+  --font-size-poster: var(--font-size-scale-900);
   --font-size-decorative: var(--font-size-scale-900);
   --font-size-heading: var(--font-size-scale-600);
   --font-size-subhead: var(--font-size-scale-400);
   --font-size-caption: var(--font-size-scale-300);
   --font-size-micro: var(--font-size-scale-200);
-  --interval: calc(9/8);
+  --interval: calc(7/6);
   --line-height: 1.4;
   --line-height-base: calc(var(--font-size) * var(--line-height));
   --line-height-heading: 1.2;

@@ -16,14 +16,16 @@ body {
   padding: 0;
 }
 
-header, main, section, footer {
-	padding-left: var(--type-space-dash);
-	padding-right: var(--type-space-dash);
-	position: relative;
-	z-index: 2;
-  @media #{$ssxl} {
-    padding-left: var(--type-space-600);
-  	padding-right: var(--type-space-600);
+body > {
+  header, main, section, footer {
+  	padding-left: var(--type-space-dash);
+  	padding-right: var(--type-space-dash);
+  	position: relative;
+  	z-index: 2;
+    @media #{$ssxl} {
+      padding-left: var(--type-space-600);
+    	padding-right: var(--type-space-600);
+    }
   }
 }
 main >, section >, article > {

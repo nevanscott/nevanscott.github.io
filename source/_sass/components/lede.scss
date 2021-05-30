@@ -2,19 +2,47 @@
   border-bottom: solid 2px var(--hair-stroke-color);
   color: var(--text-display-color);
   font-family: var(--font-family-serif);
-  font-size: calc(var(--font-size-title) * 1.25);
   font-style: normal;
-  font-weight: 350;
   line-height: var(--line-height-heading);
   --link-stroke-width: var(--link-stroke-width-heading);
   margin-bottom: var(--type-space-tad);
   max-width: none;
   padding: var(--type-space-300) 0 var(--type-space-400);
-  text-align: center;
   @media #{$ssm} {
     padding: var(--type-space-400) 0 var(--type-space-500);
   }
   @media #{$ssxl} {
-    padding: var(--type-space-500) var(--type-space-600) var(--type-space-600);
+    padding: var(--type-space-500) 0 var(--type-space-600);
+  }
+  > * + * {
+    margin-top: var(--type-space-500);
+  }
+  header, p {
+    margin-inline: 0;
+  }
+  header {
+    font-size: var(--font-size-poster);
+    font-weight: 350;
+    strong {
+      display: block;
+      color: var(--brand-text-color);
+      font-weight: 550;
+    }
+  }
+  p {
+    color: var(--text-muted-color);
+    font-size: var(--font-size-heading);
+    max-width: none;
+    &::before, &::after {
+      display: inline;
+      font-weight: 400;
+      color: var(--brand-text-color);
+    }
+    &::before {
+      content: '{';
+    }
+    &::after {
+      content: '}';
+    }
   }
 }

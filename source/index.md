@@ -1,7 +1,15 @@
 ---
 ---
 
-<p class="lede" markdown="1">Hi! I teach user experience and interaction design in Barcelona. I'm learning how to say "design educator" without wincing.</p>
+<section class="lede" markdown="1">
+
+<header>
+  <strong>Hi there!</strong> I teach user&nbsp;experience and interaction&nbsp;design in&nbsp;Barcelona.
+</header>
+
+I'm learning how to say "design educator" without wincing.
+
+</section>
 
 
 Teaching
