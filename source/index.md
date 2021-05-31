@@ -4,14 +4,14 @@
 <section class="lede" markdown="1">
 
 <header>
-  <strong>Hi there!</strong> I teach user&nbsp;experience and interaction&nbsp;design in&nbsp;Barcelona.
+  <strong>Howdy!</strong> I teach user&nbsp;experience and interaction&nbsp;design in&nbsp;Barcelona.
 </header>
 
 <div class="rotator" markdown="1">
 
-- I'm learning how to say "design&nbsp;educator" without&nbsp;wincing.
-- I have a pretty liberal definition of *puppet*, *teaching*, and&nbsp;*definition*.
-- I prioritize people over&nbsp;tools.
+- I'm learning how to say "design&nbsp;educator" without&nbsp;flinching.
+- I use open-minded definitions of *puppet*, *teaching*, and&nbsp;*definition*.
+- I aim to put people first and tools&nbsp;second.
 - My home is not "smart" and I'd like to keep&nbsp;it that&nbsp;way.
 
 </div>
