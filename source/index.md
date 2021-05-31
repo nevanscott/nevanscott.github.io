@@ -7,7 +7,32 @@
   <strong>Hi there!</strong> I teach user&nbsp;experience and interaction&nbsp;design in&nbsp;Barcelona.
 </header>
 
-I'm learning how to say "design&nbsp;educator" without&nbsp;wincing.
+<div class="rotator" markdown="1">
+
+- I'm learning how to say "design&nbsp;educator" without&nbsp;wincing.
+- I have a pretty liberal definition of *puppet*, *teaching*, and&nbsp;*definition*.
+- I prioritize people over&nbsp;tools.
+- My home is not "smart" and I'd like to keep&nbsp;it that&nbsp;way.
+
+</div>
+
+<script>
+(function() {
+  const $rotator = document.querySelector('.rotator');
+  const $list = $rotator.querySelector('ul');
+
+  $rotator.classList.add('enabled');
+  $list.firstElementChild.classList.add('active');
+
+  $list.addEventListener('click', function() {
+    const $current = $list.querySelector('.active');
+    const $next = $current.nextElementSibling || $list.firstElementChild;
+
+    $current.classList.remove('active');
+    $next.classList.add('active');
+  });
+})();
+</script>
 
 </section>
 

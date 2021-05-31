@@ -29,20 +29,39 @@
       font-weight: 550;
     }
   }
-  p {
+  .rotator {
     color: var(--text-muted-color);
     font-size: var(--font-size-heading);
     max-width: none;
-    &::before, &::after {
-      display: inline;
-      font-weight: 400;
-      color: var(--brand-text-color);
-    }
-    &::before {
-      content: '{';
-    }
-    &::after {
-      content: '}';
+    &.enabled {
+      ul {
+        list-style: none;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        display: inline;
+        li {
+          display: none;
+          transition: color 250ms ease;
+          &.active {
+            display: inline;
+          }
+          &:hover {
+            color: var(--text-color);
+          }
+        }
+      }
+      &::before, &::after {
+        display: inline;
+        font-weight: 400;
+        color: var(--brand-text-color);
+      }
+      &::before {
+        content: '{';
+      }
+      &::after {
+        content: '}';
+      }
     }
   }
 }
