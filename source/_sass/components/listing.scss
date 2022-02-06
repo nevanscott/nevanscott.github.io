@@ -1,0 +1,8 @@
+ul.listing {
+  columns: 2;
+  font-family: var(--font-family-caption);
+  font-size: var(--font-size-caption);
+  & ::marker {
+    color: var(--brand-text-color);
+  }
+}
