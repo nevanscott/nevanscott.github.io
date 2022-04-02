@@ -2,6 +2,7 @@
 clients:
   - A Book Apart
   - American Express
+  - Buzzfeed
   - Cornelsen
   - David Korins
   - Duden
@@ -12,6 +13,7 @@ clients:
   - Midnight Breakfast
   - New York University
   - Northeastern University
+  - NYC Dept. of Education
   - Rustic Pathways
   - Swiss Red Cross
 ---
@@ -81,3 +83,4 @@ I write and share thoughts on what I'm reading around the web at [notated.org](h
 
 *[UX]: User Experience
 *[UI]: User Interface
+*[NYC]: New York City
