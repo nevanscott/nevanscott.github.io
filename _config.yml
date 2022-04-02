@@ -8,7 +8,7 @@ author:
 
 timezone: Europe/Madrid
 permalink: /:title/
-include: ['.htaccess']
+include: ['_redirects']
 exclude: ['CNAME']
 
 markdown: kramdown
