@@ -1,19 +1,4 @@
-<script>
-
-// Lighting modes
-var now = new Date();
-var hour = now.getHours();
-if ( hour >= 20 ) {
-  document.getElementsByTagName('html')[0].dataset.lightingmode = 'dusk';
-} else if ( hour < 6 ) {
-  document.getElementsByTagName('html')[0].dataset.lightingmode = 'night';
-} else if ( hour < 9 ) {
-  document.getElementsByTagName('html')[0].dataset.lightingmode = 'dawn';
-} else {
-  document.getElementsByTagName('html')[0].dataset.lightingmode = 'day';
-}
-
-</script>
+<script defer data-domain="nevanscott.com" data-api="/p/api/event" src="/p/js/script.js"></script>
 
 {% if page.content contains 'include codepen.html' %}
 <!-- CodePen -->
