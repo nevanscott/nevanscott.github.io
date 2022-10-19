@@ -57,9 +57,9 @@ clients:
 Teaching
 --------
 
-I teach a [UX/UI design bootcamp](https://uxui.cat) at Ironhack in Barcelona.
+I teach a [product design bootcamp](https://buttonschool.com) at Button School in Barcelona.
 
-Previously, I've taught at Noble Desktop and at General Assembly, both in New York.
+Previously, I've taught at Ironhack in Barcelona, and General Assembly in New York.
 
 
 Clients
